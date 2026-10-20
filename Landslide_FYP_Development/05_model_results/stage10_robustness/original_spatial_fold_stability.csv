@@ -1,0 +1,28 @@
+source_stage,source_file,dataset,variant,model,n_folds,mean_roc_auc,std_roc_auc,min_roc_auc,max_roc_auc
+Stage 08,enhanced_nested_fold_results.csv,,,Logistic Regression,5,0.8750330487855471,0.045516680328265835,0.8205696202531645,0.9342948717948718
+Stage 08,enhanced_nested_fold_results.csv,,,Random Forest,5,0.9053824190466429,0.04334375539617684,0.8604430379746835,0.9634615384615386
+Stage 08,enhanced_nested_fold_results.csv,,,XGBoost,5,0.9033593438540141,0.03865192179538247,0.8602848101265822,0.9538461538461538
+Stage 09,temporal_incremental_fold_results.csv,full_enhanced,Static + temporal,Logistic Regression,5,0.9253230903223464,0.05661105129094544,0.8350694444444445,0.9869684499314128
+Stage 09,temporal_incremental_fold_results.csv,full_enhanced,Static + temporal,Random Forest,5,0.9404459798750651,0.03217125427995592,0.9064272211720228,0.98559670781893
+Stage 09,temporal_incremental_fold_results.csv,full_enhanced,Static + temporal,XGBoost,5,0.9332521373505409,0.032218822293171565,0.9053819444444444,0.9835390946502058
+Stage 09,temporal_incremental_fold_results.csv,full_enhanced,Static only,Logistic Regression,5,0.7891363097414434,0.09636580561486044,0.7152777777777778,0.9471879286694102
+Stage 09,temporal_incremental_fold_results.csv,full_enhanced,Static only,Random Forest,5,0.8311269378450424,0.09215960587676718,0.7335069444444444,0.943758573388203
+Stage 09,temporal_incremental_fold_results.csv,full_enhanced,Static only,XGBoost,5,0.8028001147764371,0.09859044957045988,0.6788194444444444,0.9158790170132324
+Stage 09,temporal_incremental_fold_results.csv,landcover,Static + temporal,Logistic Regression,5,0.8895873959571938,0.06563030788596684,0.8033333333333335,0.96
+Stage 09,temporal_incremental_fold_results.csv,landcover,Static + temporal,Random Forest,5,0.9058386841062227,0.05658468734999195,0.8283333333333334,0.9577777777777778
+Stage 09,temporal_incremental_fold_results.csv,landcover,Static + temporal,XGBoost,5,0.8780883868410623,0.06226608961140711,0.7961111111111112,0.9344444444444444
+Stage 09,temporal_incremental_fold_results.csv,landcover,Static only,Logistic Regression,5,0.8152803540758355,0.0810690606096498,0.735,0.9311111111111112
+Stage 09,temporal_incremental_fold_results.csv,landcover,Static only,Random Forest,5,0.8305860747787026,0.06971720978801288,0.7561111111111111,0.9288888888888888
+Stage 09,temporal_incremental_fold_results.csv,landcover,Static only,XGBoost,5,0.7992969348659004,0.0576189797770791,0.7443519619500595,0.8738888888888889
+Stage 09,temporal_incremental_fold_results.csv,rainfall,Static + temporal,Logistic Regression,5,0.8232471484736215,0.06961056652473745,0.7174515235457064,0.9037396121883656
+Stage 09,temporal_incremental_fold_results.csv,rainfall,Static + temporal,Random Forest,5,0.8758880858098497,0.06325172165755438,0.7929362880886427,0.9259002770083102
+Stage 09,temporal_incremental_fold_results.csv,rainfall,Static + temporal,XGBoost,5,0.8383544714887832,0.06984221347069433,0.7337257617728532,0.9044321329639888
+Stage 09,temporal_incremental_fold_results.csv,rainfall,Static only,Logistic Regression,5,0.7874723548134493,0.08873055402031692,0.6502770083102494,0.8923130193905817
+Stage 09,temporal_incremental_fold_results.csv,rainfall,Static only,Random Forest,5,0.8494338933528123,0.04954847306432523,0.7835872576177285,0.9175900277008312
+Stage 09,temporal_incremental_fold_results.csv,rainfall,Static only,XGBoost,5,0.8039438527019944,0.06582725868097852,0.6928670360110804,0.8537049861495845
+Stage 09,temporal_incremental_fold_results.csv,rainfall_soilmoisture,Static + temporal,Logistic Regression,5,0.8209702824206555,0.10056292228612203,0.6685744016649323,0.9287109375
+Stage 09,temporal_incremental_fold_results.csv,rainfall_soilmoisture,Static + temporal,Random Forest,5,0.8325543867065557,0.10242558954674037,0.71728515625,0.95849609375
+Stage 09,temporal_incremental_fold_results.csv,rainfall_soilmoisture,Static + temporal,XGBoost,5,0.8260210718002081,0.12700612004837505,0.67919921875,0.962890625
+Stage 09,temporal_incremental_fold_results.csv,rainfall_soilmoisture,Static only,Logistic Regression,5,0.8041316418444329,0.09801311445956822,0.708636836628512,0.92236328125
+Stage 09,temporal_incremental_fold_results.csv,rainfall_soilmoisture,Static only,Random Forest,5,0.839250902380333,0.0820096538006734,0.7451171875,0.94775390625
+Stage 09,temporal_incremental_fold_results.csv,rainfall_soilmoisture,Static only,XGBoost,5,0.810665718896332,0.07690235977134204,0.702880859375,0.876953125

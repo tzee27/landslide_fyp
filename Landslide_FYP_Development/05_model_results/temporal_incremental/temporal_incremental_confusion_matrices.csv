@@ -1,0 +1,25 @@
+dataset,variant,model,true_negative,false_positive,false_negative,true_positive
+full_enhanced,Static + temporal,Logistic Regression,203,39,20,101
+full_enhanced,Static + temporal,Random Forest,210,32,21,100
+full_enhanced,Static + temporal,XGBoost,198,44,20,101
+full_enhanced,Static only,Logistic Regression,183,59,29,92
+full_enhanced,Static only,Random Forest,156,86,31,90
+full_enhanced,Static only,XGBoost,187,55,50,71
+landcover,Static + temporal,Logistic Regression,236,60,22,126
+landcover,Static + temporal,Random Forest,234,62,27,121
+landcover,Static + temporal,XGBoost,259,37,46,102
+landcover,Static only,Logistic Regression,238,58,37,111
+landcover,Static only,Random Forest,210,86,26,122
+landcover,Static only,XGBoost,209,87,47,101
+rainfall,Static + temporal,Logistic Regression,293,85,38,151
+rainfall,Static + temporal,Random Forest,275,103,22,167
+rainfall,Static + temporal,XGBoost,279,99,44,145
+rainfall,Static only,Logistic Regression,314,64,52,137
+rainfall,Static only,Random Forest,276,102,43,146
+rainfall,Static only,XGBoost,299,79,53,136
+rainfall_soilmoisture,Static + temporal,Logistic Regression,248,68,46,112
+rainfall_soilmoisture,Static + temporal,Random Forest,249,67,42,116
+rainfall_soilmoisture,Static + temporal,XGBoost,242,74,32,126
+rainfall_soilmoisture,Static only,Logistic Regression,252,64,45,113
+rainfall_soilmoisture,Static only,Random Forest,240,76,42,116
+rainfall_soilmoisture,Static only,XGBoost,244,72,50,108

@@ -1,0 +1,3 @@
+branch,recommended_algorithm,selection_status,validation_basis,eligible_samples,primary_metric,deployment_condition
+Static Malaysia-wide susceptibility,Random Forest,Provisional — proceed to production-readiness checks,Stage 08 nested 5-fold outer / 3-fold inner spatial CV,582,mean spatial ROC-AUC,"Confirm nationally available predictors, valid rasters and leakage controls"
+Semi-dynamic environmental-condition extension,Random Forest,Provisional — time-index and coverage review required,Stage 09 matched full-enhanced nested spatial CV,363,mean spatial ROC-AUC,"Confirm historical date cutoffs, temporal coverage and no future leakage"

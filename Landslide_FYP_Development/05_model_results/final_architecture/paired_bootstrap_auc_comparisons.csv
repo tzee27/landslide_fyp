@@ -1,0 +1,7 @@
+model_a,model_b,auc_difference_a_minus_b,ci95_lower,ci95_upper,ci_excludes_zero,architecture
+Random Forest,Logistic Regression,0.027061855670102997,0.007628895654460205,0.04650138997841177,True,Static susceptibility
+Random Forest,XGBoost,0.016254384100329533,0.004213371369438968,0.02748669687821756,True,Static susceptibility
+XGBoost,Logistic Regression,0.010807471569773464,-0.010700657279337394,0.03177853571331015,False,Static susceptibility
+Random Forest,Logistic Regression,0.013352913052387061,-0.010873059849419978,0.04217405374609236,False,Full temporal enhanced
+Random Forest,XGBoost,0.012430844887644121,-0.0003418134820760309,0.027206163749084113,False,Full temporal enhanced
+XGBoost,Logistic Regression,0.0009220681647429396,-0.02613080825550561,0.029816893505805513,False,Full temporal enhanced

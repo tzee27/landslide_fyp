@@ -1,0 +1,17 @@
+feature,non_null,missing
+elevation_m,582,0
+slope_deg,582,0
+aspect_sin,582,0
+aspect_cos,582,0
+soil_clay,582,0
+soil_sand,582,0
+soil_silt,582,0
+soil_bulk_density,582,0
+distance_major_fault_m,582,0
+log_distance_major_fault_m,582,0
+slope_sq,582,0
+elevation_slope_interaction,582,0
+distance_waterway_current_m,582,0
+log_distance_waterway_current_m,582,0
+geology_age,312,270
+geology_unit_type,577,5

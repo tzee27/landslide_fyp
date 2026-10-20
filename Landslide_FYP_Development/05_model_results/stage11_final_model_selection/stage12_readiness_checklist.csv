@@ -1,0 +1,7 @@
+check,required_action,status
+Predictor availability over all Malaysia,Audit raster coverage and masks for every selected static predictor,Pending geographic raster audit
+Case-control prevalence and score interpretation,"Label RF outputs as relative scores, not national occurrence probability",Required at deployment
+Independent pseudo-absence redraw,"Run if feasible, or disclose untested sensitivity",Not completed by Stage 10
+Spatial leakage buffer,Inspect positive/control grouping and consider buffered spatial CV,Not completed by Stage 10
+Historical timestamps and temporal inputs,Verify each case/control reference date and available predictors strictly precede it,Pending audit
+Five susceptibility class thresholds,Set and document thresholds after national predictions are assessed,Stage 13/14; not selected here

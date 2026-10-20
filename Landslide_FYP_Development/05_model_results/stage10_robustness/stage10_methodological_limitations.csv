@@ -1,0 +1,7 @@
+issue,status
+Pseudo-absence uncertainty,Not resolved by 1:1 vs 1:2 comparison; separate independent resampling is needed
+Spatial buffer,Spatial block groups applied; no explicit exclusion buffer between train/test blocks
+Temporal causality,Verify event/control reference dates and data cutoffs against Stage-05B audits
+National raster coverage,Not proven; validate completeness of all national raster and categorical features before mapping
+Susceptibility score calibration,Case-control scores are relative; do not interpret as absolute event probabilities
+Hyperparameter tuning,Stage 10 uses fixed RF settings; final comparison should rely on Stage-08/09 nested benchmarks
