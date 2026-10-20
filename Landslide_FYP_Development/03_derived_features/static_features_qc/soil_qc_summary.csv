@@ -1,0 +1,5 @@
+check,value
+Total samples,3200
+Soil complete (non-missing),3200
+All-four-zero soil samples,148
+Soil valid after QC,3052

@@ -1,0 +1,32 @@
+Service,Layer_ID,Layer_Name,Geometry,Feature_Count,Query_Status,Historical_Query,Layer_URL
+JMG_Major_Fault,5,Major Fault,esriGeometryPolyline,75,SUCCESS,False,https://mygems.jmg.gov.my/server/rest/services/GeologiAsas/Major_Fault/FeatureServer/5
+JMG_Lithology,0,Lithology of Perlis,esriGeometryPolygon,78,SUCCESS,False,https://mygems.jmg.gov.my/server/rest/services/Demarcation/Litology_by_Negeri/FeatureServer/0
+JMG_Lithology,1,Rock age of Perlis,esriGeometryPolygon,78,SUCCESS,False,https://mygems.jmg.gov.my/server/rest/services/Demarcation/Litology_by_Negeri/FeatureServer/1
+JMG_Lithology,2,Lithology of Kedah,esriGeometryPolygon,902,SUCCESS,False,https://mygems.jmg.gov.my/server/rest/services/Demarcation/Litology_by_Negeri/FeatureServer/2
+JMG_Lithology,3,Rock age of Kedah,esriGeometryPolygon,902,SUCCESS,False,https://mygems.jmg.gov.my/server/rest/services/Demarcation/Litology_by_Negeri/FeatureServer/3
+JMG_Lithology,4,Lithology of Pulau_Pinang,esriGeometryPolygon,82,SUCCESS,False,https://mygems.jmg.gov.my/server/rest/services/Demarcation/Litology_by_Negeri/FeatureServer/4
+JMG_Lithology,5,Rock age of Pulau_Pinang,esriGeometryPolygon,82,SUCCESS,False,https://mygems.jmg.gov.my/server/rest/services/Demarcation/Litology_by_Negeri/FeatureServer/5
+JMG_Lithology,6,Lithology of Perak,esriGeometryPolygon,782,SUCCESS,False,https://mygems.jmg.gov.my/server/rest/services/Demarcation/Litology_by_Negeri/FeatureServer/6
+JMG_Lithology,7,Rock age of Perak,esriGeometryPolygon,782,SUCCESS,False,https://mygems.jmg.gov.my/server/rest/services/Demarcation/Litology_by_Negeri/FeatureServer/7
+JMG_Lithology,8,Lithology of Kelantan,esriGeometryPolygon,780,SUCCESS,False,https://mygems.jmg.gov.my/server/rest/services/Demarcation/Litology_by_Negeri/FeatureServer/8
+JMG_Lithology,9,Rock age of Kelantan,esriGeometryPolygon,780,SUCCESS,False,https://mygems.jmg.gov.my/server/rest/services/Demarcation/Litology_by_Negeri/FeatureServer/9
+JMG_Lithology,10,Lithology of Terengganu,esriGeometryPolygon,826,SUCCESS,False,https://mygems.jmg.gov.my/server/rest/services/Demarcation/Litology_by_Negeri/FeatureServer/10
+JMG_Lithology,11,Rock age of Terengganu,esriGeometryPolygon,826,SUCCESS,False,https://mygems.jmg.gov.my/server/rest/services/Demarcation/Litology_by_Negeri/FeatureServer/11
+JMG_Lithology,12,Lithology of Pahang,esriGeometryPolygon,1510,SUCCESS,False,https://mygems.jmg.gov.my/server/rest/services/Demarcation/Litology_by_Negeri/FeatureServer/12
+JMG_Lithology,13,Rock age of Pahang,esriGeometryPolygon,1510,SUCCESS,False,https://mygems.jmg.gov.my/server/rest/services/Demarcation/Litology_by_Negeri/FeatureServer/13
+JMG_Lithology,14,Lithology of Selangor,esriGeometryPolygon,268,SUCCESS,False,https://mygems.jmg.gov.my/server/rest/services/Demarcation/Litology_by_Negeri/FeatureServer/14
+JMG_Lithology,15,Rock age of Selangor,esriGeometryPolygon,268,SUCCESS,False,https://mygems.jmg.gov.my/server/rest/services/Demarcation/Litology_by_Negeri/FeatureServer/15
+JMG_Lithology,16,Lithology of Putrajaya,esriGeometryPolygon,5,SUCCESS,False,https://mygems.jmg.gov.my/server/rest/services/Demarcation/Litology_by_Negeri/FeatureServer/16
+JMG_Lithology,17,Rock age of Putrajaya,esriGeometryPolygon,5,SUCCESS,False,https://mygems.jmg.gov.my/server/rest/services/Demarcation/Litology_by_Negeri/FeatureServer/17
+JMG_Lithology,18,Lithology of Kuala Lumpur,esriGeometryPolygon,14,SUCCESS,False,https://mygems.jmg.gov.my/server/rest/services/Demarcation/Litology_by_Negeri/FeatureServer/18
+JMG_Lithology,19,Rock age of Kuala Lumpur,esriGeometryPolygon,14,SUCCESS,False,https://mygems.jmg.gov.my/server/rest/services/Demarcation/Litology_by_Negeri/FeatureServer/19
+JMG_Lithology,20,Lithology of Negeri Sembilan,esriGeometryPolygon,278,SUCCESS,False,https://mygems.jmg.gov.my/server/rest/services/Demarcation/Litology_by_Negeri/FeatureServer/20
+JMG_Lithology,21,Rock age of Negeri Sembilan,esriGeometryPolygon,278,SUCCESS,False,https://mygems.jmg.gov.my/server/rest/services/Demarcation/Litology_by_Negeri/FeatureServer/21
+JMG_Lithology,22,Lithology of Melaka,esriGeometryPolygon,140,SUCCESS,False,https://mygems.jmg.gov.my/server/rest/services/Demarcation/Litology_by_Negeri/FeatureServer/22
+JMG_Lithology,23,Rock age of Melaka,esriGeometryPolygon,140,SUCCESS,False,https://mygems.jmg.gov.my/server/rest/services/Demarcation/Litology_by_Negeri/FeatureServer/23
+JMG_Lithology,24,Lithology of Johor,esriGeometryPolygon,878,SUCCESS,False,https://mygems.jmg.gov.my/server/rest/services/Demarcation/Litology_by_Negeri/FeatureServer/24
+JMG_Lithology,25,Rock age of Johor,esriGeometryPolygon,878,SUCCESS,False,https://mygems.jmg.gov.my/server/rest/services/Demarcation/Litology_by_Negeri/FeatureServer/25
+JMG_Lithology,26,Lithology of Sabah,esriGeometryPolygon,1229,SUCCESS,False,https://mygems.jmg.gov.my/server/rest/services/Demarcation/Litology_by_Negeri/FeatureServer/26
+JMG_Lithology,27,Rock age of Sabah,esriGeometryPolygon,1229,SUCCESS,False,https://mygems.jmg.gov.my/server/rest/services/Demarcation/Litology_by_Negeri/FeatureServer/27
+JMG_Lithology,28,Lithology of Sarawak,esriGeometryPolygon,1599,SUCCESS,False,https://mygems.jmg.gov.my/server/rest/services/Demarcation/Litology_by_Negeri/FeatureServer/28
+JMG_Lithology,29,Rock age of Sarawak,esriGeometryPolygon,1599,SUCCESS,False,https://mygems.jmg.gov.my/server/rest/services/Demarcation/Litology_by_Negeri/FeatureServer/29

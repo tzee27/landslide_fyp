@@ -1,0 +1,15 @@
+check,value
+JMG CSV rows,52
+Source occurrence shapefiles,5
+Source occurrence features,52
+Resolved WGS84 records,52
+Inside Malaysia boundary,52
+Outside Malaysia boundary,0
+Plausible Malaysia coordinates,52
+Complete valid source dates,47
+Missing/incomplete source dates,5
+Records with source event ID,49
+Records missing source event ID,3
+Rows flagged repeated source ID,4
+Rows flagged repeated projected location,2
+Rows flagged repeated resolved WGS84 location,2

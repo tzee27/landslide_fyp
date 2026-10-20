@@ -1,0 +1,9 @@
+setting,value
+Primary static ratio,1:2
+Sensitivity static ratio,1:1
+Primary validation,5-fold spatial GroupKFold
+Spatial block size,approximately 50 km (0.45 degrees)
+Baseline models,Logistic Regression; Random Forest
+Core static numerical predictors,elevation_m; slope_deg; aspect_sin; aspect_cos; soil_clay; soil_sand; soil_silt; soil_bulk_density; distance_major_fault_m
+Geology experiment,Optional; encode inside CV pipeline
+Historical road,Optional; not required for first baseline

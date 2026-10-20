@@ -1,0 +1,5 @@
+check,value
+Total samples,3200
+Spatially inside >=1 JMG lithology polygon,3166
+No JMG lithology polygon coverage,34
+Covered by >1 polygon,3166

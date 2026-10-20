@@ -1,0 +1,5 @@
+sample_class,lithology_spatially_covered,records
+background_candidate,False,32
+background_candidate,True,2968
+landslide,False,2
+landslide,True,198

@@ -1,0 +1,16 @@
+model,outer_fold,best_params
+Logistic Regression,1,{'model__C': 10.0}
+Logistic Regression,2,{'model__C': 10.0}
+Logistic Regression,3,{'model__C': 3.0}
+Logistic Regression,4,{'model__C': 10.0}
+Logistic Regression,5,{'model__C': 10.0}
+Random Forest,1,"{'model__n_estimators': 800, 'model__min_samples_split': 20, 'model__min_samples_leaf': 15, 'model__max_features': 0.5, 'model__max_depth': None}"
+Random Forest,2,"{'model__n_estimators': 300, 'model__min_samples_split': 10, 'model__min_samples_leaf': 2, 'model__max_features': 0.5, 'model__max_depth': None}"
+Random Forest,3,"{'model__n_estimators': 800, 'model__min_samples_split': 30, 'model__min_samples_leaf': 15, 'model__max_features': 0.5, 'model__max_depth': 9}"
+Random Forest,4,"{'model__n_estimators': 300, 'model__min_samples_split': 5, 'model__min_samples_leaf': 4, 'model__max_features': 'log2', 'model__max_depth': 9}"
+Random Forest,5,"{'model__n_estimators': 500, 'model__min_samples_split': 10, 'model__min_samples_leaf': 2, 'model__max_features': 'log2', 'model__max_depth': None}"
+XGBoost,1,"{'model__subsample': 0.75, 'model__scale_pos_weight': 2.0, 'model__reg_lambda': 20.0, 'model__reg_alpha': 1.0, 'model__n_estimators': 150, 'model__min_child_weight': 8, 'model__max_depth': 3, 'model__learning_rate': 0.03, 'model__colsample_bytree': 0.75}"
+XGBoost,2,"{'model__subsample': 0.9, 'model__scale_pos_weight': 1.0, 'model__reg_lambda': 10.0, 'model__reg_alpha': 0.1, 'model__n_estimators': 100, 'model__min_child_weight': 5, 'model__max_depth': 2, 'model__learning_rate': 0.05, 'model__colsample_bytree': 0.6}"
+XGBoost,3,"{'model__subsample': 0.6, 'model__scale_pos_weight': 2.0, 'model__reg_lambda': 2.0, 'model__reg_alpha': 0.5, 'model__n_estimators': 150, 'model__min_child_weight': 12, 'model__max_depth': 4, 'model__learning_rate': 0.01, 'model__colsample_bytree': 0.6}"
+XGBoost,4,"{'model__subsample': 0.75, 'model__scale_pos_weight': 2.0, 'model__reg_lambda': 5.0, 'model__reg_alpha': 0.0, 'model__n_estimators': 100, 'model__min_child_weight': 3, 'model__max_depth': 4, 'model__learning_rate': 0.05, 'model__colsample_bytree': 0.9}"
+XGBoost,5,"{'model__subsample': 0.9, 'model__scale_pos_weight': 2.0, 'model__reg_lambda': 2.0, 'model__reg_alpha': 0.0, 'model__n_estimators': 100, 'model__min_child_weight': 3, 'model__max_depth': 4, 'model__learning_rate': 0.03, 'model__colsample_bytree': 0.6}"

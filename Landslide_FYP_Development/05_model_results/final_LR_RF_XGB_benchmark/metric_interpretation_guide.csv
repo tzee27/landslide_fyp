@@ -1,0 +1,9 @@
+metric,primary_goal_for_this_FYP,note
+ROC-AUC,Prefer >=0.75; >=0.80 would be strong,Threshold-independent; primary ranking metric
+Balanced Accuracy,Prefer >=0.70,More informative than raw accuracy for 1:2 classes
+Recall,Prefer >=0.65-0.70,Important because false negatives are missed landslide locations
+F1,Prefer >=0.60; >=0.70 strong,Balances precision and recall
+PR-AUC,Clearly >0.333; prefer >0.50,No-skill baseline approximately equals positive prevalence
+Accuracy,Must be interpreted against ~0.667 majority baseline,Do not use alone
+Fold ROC-AUC std,Prefer <0.10,Lower indicates better spatial stability
+Train-test ROC-AUC gap,Prefer <0.10,Large gap suggests overfitting

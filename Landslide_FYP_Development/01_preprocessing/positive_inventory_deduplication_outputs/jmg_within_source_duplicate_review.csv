@@ -1,0 +1,7 @@
+source_record_id,jmg_source_event_id,SOURCE_FILE,event_date_standard,Nama_Kampu,Nama_Jalan,Daerah,Negeri,final_latitude,final_longitude,duplicate_source_event_id,duplicate_exact_projected_xy,duplicate_resolved_wgs84
+JMG_037,AY44201_LS_05,ch_TANAH_RUNTUH_SEMENANJUNG_.shp,2021-12-19,Rumah Istirehat KWSP,,Cameron Highlands,Pahang,4.491969824231866,101.37913689037745,True,False,False
+JMG_038,AY44201_LS_05,ch_TANAH_RUNTUH_SEMENANJUNG_.shp,2021-12-19,PRIMA,,Cameron Highlands,Pahang,4.476577942712752,101.3766956833186,True,False,False
+JMG_042,AY44201_M_01_SF_01,ch_TANAH_RUNTUH_SEMENANJUNG_.shp,2021-05-29,Taman Gambang Damai,,Cameron Highlands,Pahang,4.491990450684666,101.38599489332478,False,True,True
+JMG_043,AY44201_M_02_SF_01,ch_TANAH_RUNTUH_SEMENANJUNG_.shp,2021-01-06,Jalan Turun Bukit Fraser (KM 6.4),,Cameron Highlands,Pahang,4.491990450684666,101.38599489332478,False,True,True
+JMG_045,FH2101_M_01_SF_01,pp_TANAH_RUNTUH_SEMENANJUNG_.shp,2021-10-30,"664G, Pepper Estate",,Timor Laut,Pulau Pinang,5.454411898827346,100.2970460421948,True,False,False
+JMG_046,FH2101_M_01_SF_01,pp_TANAH_RUNTUH_SEMENANJUNG_.shp,2021-09-28,,Jalan Lembah Permai,Timor Laut,Pulau Pinang,5.455674768425551,100.29545318382624,True,False,False

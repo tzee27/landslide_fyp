@@ -1,0 +1,2 @@
+positive_id,source_dataset,source_record_id,source_event_id,event_date,event_date_available,event_date_source_reliable_for_review,state_or_admin,district_or_locality,event_title_or_name,location_accuracy_source,longitude,latitude,dedup_status,duplicate_group,representative_record_id,duplicate_reason
+COOLR_9083,NASA_COOLR,COOLR_9083,9083,2015-12-19 00:00:00,True,True,Wilayah Persekutuan Labuan,Labuan,Labuan,25km,115.2203,5.3149,EXCLUDE_DUPLICATE,COOLR_DUP_001,COOLR_9082,Same coordinate + same event date + matching title/location

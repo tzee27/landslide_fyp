@@ -1,0 +1,11 @@
+check,value
+Total samples,3200
+Landslide positives,200
+Background candidates,3000
+Terrain valid,3200
+Soil valid final,3124
+Fault distance available,3200
+National core-static valid final,3124
+Geology spatially covered,3166
+Geology attribute available,3166
+Geology-enhanced valid final,3098

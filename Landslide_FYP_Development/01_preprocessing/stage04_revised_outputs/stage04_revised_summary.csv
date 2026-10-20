@@ -1,0 +1,9 @@
+check,value
+Reviewed historical positives,287.0
+Point-ML-eligible positives,200.0
+Excluded from fine-resolution point ML,87.0
+COOLR maximum accepted accuracy m,5000.0
+Background candidate target,3000.0
+Background candidates generated,3000.0
+Eligible sampling area percent,98.87
+Final pseudo-absences selected at this stage,0.0

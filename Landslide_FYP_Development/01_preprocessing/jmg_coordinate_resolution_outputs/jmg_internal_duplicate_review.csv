@@ -1,0 +1,7 @@
+jmg_resolved_id,SOURCE_FILE,source_feature_index,jmg_source_event_id,source_geometry_x,source_geometry_y,resolved_longitude,resolved_latitude,Negeri,Daerah,Hari,Bulan,Tahun,source_date_candidate,duplicate_source_event_id,duplicate_exact_projected_xy,duplicate_resolved_wgs84
+JMG_037,ch_TANAH_RUNTUH_SEMENANJUNG_.shp,8,AY44201_LS_05,376296.0,497079.0,101.37913689037745,4.491969824231866,Pahang,Cameron Highlands,19,Disember,2021.0,2021-12-19,True,False,False
+JMG_038,ch_TANAH_RUNTUH_SEMENANJUNG_.shp,9,AY44201_LS_05,376020.0,495378.0,101.3766956833186,4.476577942712752,Pahang,Cameron Highlands,19,Disember,2021.0,2021-12-19,True,False,False
+JMG_042,ch_TANAH_RUNTUH_SEMENANJUNG_.shp,13,AY44201_M_01_SF_01,377057.0,497079.0,101.38599489332478,4.491990450684666,Pahang,Cameron Highlands,29,Mei,2021.0,2021-05-29,False,True,True
+JMG_043,ch_TANAH_RUNTUH_SEMENANJUNG_.shp,14,AY44201_M_02_SF_01,377057.0,497079.0,101.38599489332478,4.491990450684666,Pahang,Cameron Highlands,6,Januari,2021.0,2021-01-06,False,True,True
+JMG_045,pp_TANAH_RUNTUH_SEMENANJUNG_.shp,0,FH2101_M_01_SF_01,256719.82,603963.5,100.2970460421948,5.454411898827346,Pulau Pinang,Timor Laut,30,Oktober,2021.0,2021-10-30,True,False,False
+JMG_046,pp_TANAH_RUNTUH_SEMENANJUNG_.shp,1,FH2101_M_01_SF_01,256544.0,604104.0,100.29545318382624,5.455674768425551,Pulau Pinang,Timor Laut,28,September,2021.0,2021-09-28,True,False,False

@@ -1,0 +1,6 @@
+reference,value
+Positive prevalence,0.3333333333333333
+Always-negative accuracy,0.6666666666666666
+No-skill PR-AUC baseline,0.3333333333333333
+Chance balanced accuracy,0.5
+Chance ROC-AUC,0.5

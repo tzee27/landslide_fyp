@@ -1,0 +1,10 @@
+check,value
+Historical reviewed positives,287.0
+ML-eligible positives,200.0
+Excluded coarse positives,87.0
+Maximum accepted COOLR accuracy m,5000.0
+Background candidate target,3000.0
+Background candidates generated,3000.0
+Malaysia area km2,329819.88
+Background eligible area km2,326104.46
+Eligible share percent,98.87

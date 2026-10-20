@@ -1,0 +1,82 @@
+final_positive_id,source_record_id,event_date,state_or_admin,district_or_locality,event_title_or_name,location_accuracy_source,longitude,latitude,exclusion_buffer_m
+POS_0186,COOLR_9317,2016-02-18 00:00:00,Sarawak,Southern Sarawak,Southern Sarawak,250km,114.3859,3.3334,250000
+POS_0027,COOLR_3061,2011-01-27 00:00:00,Sabah,"Siew Ching primary school(?), Kampung Pancuran(?), near Lahad Datu, Sabah","Siew Ching primary school(?), Kampung Pancuran(?), near Lahad Datu, Sabah",50km,117.9555,4.9723,50000
+POS_0012,COOLR_5781,2014-01-14 09:00:00,Sabah,Sabah,Sabah,50km,116.7968,5.4204,50000
+POS_0096,COOLR_320,2007-10-19 00:00:00,Sabah,Ranau-Tamparuli Road,Ranau-Tamparuli Road,50km,116.4453,6.043,50000
+POS_0143,COOLR_3077,2011-01-31 15:00:00,Sabah,"Kampung Sundang Darat(?), near Sandakan, Sabah","Kampung Sundang Darat(?), near Sandakan, Sabah",50km,117.9802,5.7515,50000
+POS_0170,COOLR_4209,2012-02-18 01:30:00,Sabah,"Kampung Terusan, Lahad Datu ","Kampung Terusan, Lahad Datu ",50km,118.4047,5.0882,50000
+POS_0169,COOLR_4685,2012-12-26 03:00:00,Terengganu,road connecting Kampung Air Putih and Kampung Telandas,road connecting Kampung Air Putih and Kampung Telandas,50km,103.2174,4.2664,50000
+POS_0127,COOLR_2557,2010-10-07 23:00:00,Sabah,"road between Kota Kinabalu and Ranaum, Sabah state","road between Kota Kinabalu and Ranaum, Sabah state",50km,116.388,5.9606,50000
+POS_0133,COOLR_11050,2017-03-18 00:00:00,Sarawak,"Kg Rian, Song district, Kapit Division, Sarawak, Malaysia",Kg Rian Landslide in the Song District,50km,112.595116,1.760867,50000
+POS_0113,COOLR_4885,2013-05-29 00:00:00,Sabah,"Jalan Merakau, Ranau","Jalan Merakau, Ranau",50km,116.6928,5.9872,50000
+POS_0098,COOLR_290,2007-10-03 00:00:00,Sabah,"Kundasang-Tamparuli road, Kundasang, near the Mount Kinabalu national park area","Kundasang-Tamparuli road, Kundasang, near the Mount Kinabalu national park area",50km,116.5956,5.9975,50000
+POS_0164,COOLR_7609,2015-08-09 06:00:00,Sabah,Kota Kinabalu-Tambunan Road,Kota Kinabalu-Tambunan Road,50km,116.2113,5.9012,50000
+POS_0179,COOLR_2717,2010-11-12 00:00:00,Kelantan,,"Gua Musang : 16 Nov, 2010   About 400 Orang Asli have been isolated since the wooden suspension bridge linking their villages to the outside world co*",50km,101.9787,4.8903,50000
+POS_0176,COOLR_4107,2011-12-25 00:00:00,Sarawak,"blingian, Sarawak","blingian, Sarawak",50km,112.5473,2.5871,50000
+POS_0231,COOLR_4128,2012-01-03 00:00:00,Sabah,"Kampung Menggaris, on slopes of Bukit Mansuri, Kinabatangan ","Kampung Menggaris, on slopes of Bukit Mansuri, Kinabatangan ",50km,118.1493,5.4164,50000
+POS_0141,COOLR_11029,2016-12-10 00:00:00,Pahang,"Forest, Matau Gelangi, Jerantut",Two Orang Asli killed in Pahang landslide,50km,102.431673,3.983405,50000
+POS_0097,COOLR_823,2008-09-30 00:00:00,Pulau Pinang,"Jalan Tun Sardon, Penang","Jalan Tun Sardon, Penang",25km,100.24,5.34,25000
+POS_0106,COOLR_11028,2017-01-02 16:00:00,Kelantan,"185, Bertam, Gua Musang, 18300, Kelantan",KM97 Landslide on Gua Musang-Lojing Road,25km,101.82078722300008,4.848737229000051,25000
+POS_0081,COOLR_12951,2017-12-19 17:00:00,Sarawak,"Jalan Bintulu Bakun, Belaga, Division Kapit, 96900, Sarawak. Located at the 30 km mark of Mejawah-Belaga Road.",Belaga Town Landslide,25km,113.95973316600009,2.798450346000038,25000
+POS_0084,COOLR_13271,2017-11-04 18:30:00,Kelantan,"Kilometer 392.75, between Dabong and Bukit Abu, Kelantan, Malaysia. ",Dabong Landslide on Train tracks,25km,102.025023,5.368532,25000
+POS_0208,COOLR_2805,2010-12-11 08:00:00,Sabah,"Kg Loku(?), Kiulu, Sabah","Kg Loku(?), Kiulu, Sabah",25km,116.2837,6.0638,25000
+POS_0233,COOLR_5789,2014-01-15 11:30:00,Sabah,Pitas,Pitas,25km,116.2825,6.1353,25000
+POS_0153,COOLR_6719,2015-01-16 15:00:00,Sabah,Km 38.8 along the KK- Tambunan- Keningau road near Kg Togudon,Km 38.8 along the KK- Tambunan- Keningau road near Kg Togudon,25km,116.2805,5.4992,25000
+POS_0161,COOLR_9084,2015-12-19 00:00:00,Wilayah Persekutuan Labuan,Labuan,Labuan,25km,115.2202,5.3151,25000
+POS_0150,COOLR_4847,2013-05-08 19:00:00,Wilayah Persekutuan Kuala Lumpur,"Jalan Ampang, Kuala Lumpur","Jalan Ampang, Kuala Lumpur",25km,101.6983,3.1618,25000
+POS_0140,COOLR_9081,2015-12-19 00:00:00,Wilayah Persekutuan Labuan,Labuan,Labuan,25km,115.2202,5.3149,25000
+POS_0145,COOLR_7610,2015-08-10 00:00:00,Sabah,Sungai Liwagu,Sungai Liwagu,25km,116.6443,5.9551,25000
+POS_0110,COOLR_14313,2018-12-07 15:18:33,Sarawak,Jalan Song-Kapit,Longhouse damaged in landslide along the Jalan Song-Kapit roadway,25km,112.82763744100009,2.007111374000033,25000
+POS_0147,COOLR_11044,2017-04-01 00:00:00,Sabah,"Kinabatangan, Division Sandakan, Sabah, Malaysia",Fatal landslide at the Milian riverbank,25km,117.1030200890001,5.268333182000049,25000
+POS_0134,COOLR_4102,2011-12-19 01:40:00,Sabah,,"Ranau : The early morning massive landslide on Kota Kinabalu-Sandakan main road in Ranau here, had beencleared and the road was reopened to traffic a*",25km,116.6733,5.9521,25000
+POS_0137,COOLR_6267,2014-10-17 19:39:00,Negeri Sembilan,Jalan Tembok,Jalan Tembok,25km,101.9421,2.7229,25000
+POS_0177,COOLR_5782,2014-01-14 09:00:00,Sabah,Kiulu,Kiulu,25km,116.2708,6.116,25000
+POS_0174,COOLR_4119,2011-12-28 20:00:00,Sarawak,"KM77, Kampung Semukoi","KM77, Kampung Semukoi",25km,110.6565,1.0571,25000
+POS_0202,COOLR_281,2007-09-26 00:00:00,Wilayah Persekutuan Kuala Lumpur,Taman Melawati,Taman Melawati,25km,101.6899,3.1028,25000
+POS_0175,COOLR_6785,2015-02-18 19:35:00,Perak,Jalan Taiping Villa,Jalan Taiping Villa,25km,100.7599,4.849,25000
+POS_0205,COOLR_2552,2010-10-06 00:00:00,Sarawak,"Putai and Nungun(?), Sungai Melatai river(?), upper reaches of Balleh(Baleh) river, tributary of Rajang river, Sarawak","Putai and Nungun(?), Sungai Melatai river(?), upper reaches of Balleh(Baleh) river, tributary of Rajang river, Sarawak",25km,113.8995,1.8257,25000
+POS_0042,COOLR_6352,2014-11-05 08:00:00,Sabah,Kg Tomis,Kg Tomis,25km,116.4955,6.0202,25000
+POS_0030,COOLR_9217,2016-01-14 02:00:00,Pahang,Cameron Highlands,Cameron Highlands,25km,101.479,4.479,25000
+POS_0078,COOLR_4352,2012-05-06 15:00:00,Sabah,Jalan Tamparuli-Ranau rd.,Jalan Tamparuli-Ranau rd.,25km,116.497,6.0211,25000
+POS_0083,COOLR_11026,2017-01-27 00:00:00,Perak,"4, Temenggor, Hulu Perak, 33320, Perak",East-West Highway Landslides at Kilometres 14 and 12,25km,101.47309589800005,5.586158712000042,25000
+POS_0055,COOLR_991,2009-03-01 18:00:00,Negeri Sembilan,Seremban-Kuala Pilah road (10 landslides along the road. Here lat long taken at ~midpoint of the two end locations) ,Seremban-Kuala Pilah road (10 landslides along the road. Here lat long taken at ~midpoint of the two end locations) ,25km,102.0987,2.7325,25000
+POS_0079,COOLR_6412,2014-12-01 20:00:00,Perak,Jalan Kuala Slim at Km 6.4,Jalan Kuala Slim at Km 6.4,25km,101.383,3.8258,25000
+POS_0011,COOLR_9082,2015-12-19 00:00:00,Wilayah Persekutuan Labuan,Labuan,Labuan,25km,115.2203,5.3149,25000
+POS_0115,COOLR_7028,2015-05-29 14:30:00,Sabah,Penampang-Tambunan Road at kilometre 28.8,Penampang-Tambunan Road at kilometre 28.8,25km,116.3975,6.1177,25000
+POS_0114,COOLR_4888,2013-05-31 04:00:00,Sabah,"Penampang-Tambunan Trunk Road, 22Km From Donggongon Town","Penampang-Tambunan Trunk Road, 22Km From Donggongon Town",25km,116.2981,5.8544,25000
+POS_0119,COOLR_11025,2017-04-12 20:00:00,Perak,"Gerik, Hulu Perak, Perak, Malaysia",Landslide obstructs East-West Highway,25km,101.05187314900007,5.490492298000049,25000
+POS_0123,COOLR_6976,2015-06-10 15:00:00,Sabah,"Mount Kinabalu, Kundasang - among Renau (Kampung Kiau, Kampung Kaung, Kampung Lobong 2 and Kampung Melangkap)","Mount Kinabalu, Kundasang - among Renau (Kampung Kiau, Kampung Kaung, Kampung Lobong 2 and Kampung Melangkap)",25km,116.55156466200003,6.050341784000068,25000
+POS_0204,COOLR_3675,2011-06-29 00:00:00,Selangor,"Lembah, Jaya, Ampang, Malaysia","Lembah, Jaya, Ampang, Malaysia",25km,101.7575,3.1588,25000
+POS_0200,COOLR_7133,2015-04-19 00:00:00,Sarawak,"Chung Hua primary school, Jalan Tarap, Limbang","Chung Hua primary school, Jalan Tarap, Limbang",25km,114.937,4.6366,25000
+POS_0228,COOLR_5556,2013-09-25 00:00:00,Sarawak,"Lower Tukau, Miri, Sarawak","Lower Tukau, Miri, Sarawak",25km,113.9573,4.3036,25000
+POS_0054,COOLR_910,2008-11-27 00:00:00,Sabah,"road access to the Istana Negeri, Kota Kinabalu (road closed between Karamunsing and Padang Merdeka)","road access to the Istana Negeri, Kota Kinabalu (road closed between Karamunsing and Padang Merdeka)",10km,116.0924,5.9555,10000
+POS_0070,COOLR_5810,2014-01-22 00:00:00,Sarawak,"Miri, Miri Division","Miri, Miri Division",10km,113.9949,4.3331,10000
+POS_0065,COOLR_11035,2017-01-24 00:00:00,Pahang,"9, Sabai, Bentong, 28620, Pahang",Jalan Karak-Pelangai Landslide over 8-Metre Stretch,10km,102.07992660700006,3.300391156000046,10000
+POS_0038,COOLR_9612,2016-10-13 00:00:00,Pulau Pinang,Jalan Lembah Pantai,Jalan Lembah Pantai,10km,100.3049,5.3737,10000
+POS_0029,COOLR_859,2008-10-22 00:00:00,Pulau Pinang,"Paya Terubong, Kashmir (near George Town)","Paya Terubong, Kashmir (near George Town)",10km,100.2906,5.389,10000
+POS_0041,COOLR_901,2008-11-23 00:00:00,Sabah,Kg Kiau Nulu and neighbouring Kg Kiau Bersatu in Kadamaian ,Kg Kiau Nulu and neighbouring Kg Kiau Bersatu in Kadamaian ,10km,116.4333,6.3667,10000
+POS_0058,COOLR_14609,2018-09-27 00:17:22,Perak,"KM42, Jalan Simpang Pulai-Cameron Highlands Road, Malaysia",KM42 Mudslide,10km,101.35350860100004,4.594102638000038,10000
+POS_0067,COOLR_14111,2018-10-17 20:40:23,Sarawak,"Lemanak, Lubok Antu, Borneo, Malaysia",Lubok Antu Landslip,10km,111.82976500800004,1.051748349000036,10000
+POS_0068,COOLR_11047,2017-02-22 06:00:00,Sarawak,"Jalan Kuala Tatau, Tatau, Division Bintulu, 97200, Sarawak",Bintulu Kitchen Damaged by Landslide at Bintulu-Tatau Road,10km,112.83749479300002,3.086036242000034,10000
+POS_0211,COOLR_9818,2017-05-18 00:00:00,Sarawak,"Miri Bintulu road near Bukit Song, Borneo",Landlslide on Miri-Bintulu road,10km,114.04228,4.193408,10000
+POS_0216,COOLR_41,2007-03-22 00:00:00,Wilayah Persekutuan Putrajaya,Putrajaya,Putrajaya,10km,101.698,2.943,10000
+POS_0183,COOLR_3349,2011-04-10 09:00:00,Sabah,"Kg Mohimboyon(?), Kundasang(?), 34 km along road west from Ranau","Kg Mohimboyon(?), Kundasang(?), 34 km along road west from Ranau",10km,116.5268,6.009,10000
+POS_0203,COOLR_12892,2017-11-21 00:00:00,Kelantan,"Kampung Sanwai, Gua Musang, Kelantan, Malaysia. Located near Pos Brooke, a settlement for indigenous people.",Kampung Sangwai Landslide,10km,101.489871,4.673832,10000
+POS_0184,COOLR_971,2009-01-16 13:00:00,Sarawak,"Sekolah Kebangsaan Sungai Arip, Mukah about 600 km from Kuching ","Sekolah Kebangsaan Sungai Arip, Mukah about 600 km from Kuching ",10km,110.3442,1.531,10000
+POS_0223,COOLR_4215,2012-02-21 00:00:00,Sarawak,"Tinjar, Beluru-Lapok road,","Tinjar, Beluru-Lapok road,",10km,114.1991,3.7122,10000
+POS_0142,COOLR_911,2008-11-30 00:00:00,Wilayah Persekutuan Kuala Lumpur,"Ulu Yam, Gombak, Selangor","Ulu Yam, Gombak, Selangor",10km,101.7111,3.2289,10000
+POS_0111,COOLR_11048,2017-03-20 18:00:00,Sarawak,"Rumah Empaling, Sg Labang, near SK Sengian Labang (school), northern Sarawak, Malaysia",Longhouse Collapsed after Rumah Empaling Landslide,10km,113.42223,3.215342,10000
+POS_0157,COOLR_4849,2013-05-08 00:00:00,Wilayah Persekutuan Kuala Lumpur,"Bukit Nanas Forest Reserve, Jalan Ampang","Bukit Nanas Forest Reserve, Jalan Ampang",10km,101.7058,3.1507,10000
+POS_0167,COOLR_5604,2013-10-14 15:35:00,Sabah,"Kampung Rangalau Lama, Kiulu","Kampung Rangalau Lama, Kiulu",10km,116.2824,6.0581,10000
+POS_0165,COOLR_11046,2017-05-11 00:00:00,Sarawak,"Long Panai-Marudi road, Division Miri, Sarawak, Malaysia",Landslide along Long Panai-Marudi timber road,10km,114.5253161060001,3.969957896000039,10000
+POS_0190,COOLR_7077,2015-07-04 15:00:00,Sabah,"Sungai Kadamaian, school near Mt. Kinabalu","Sungai Kadamaian, school near Mt. Kinabalu",10km,116.4461,6.3398,10000
+POS_0193,COOLR_4846,2013-05-08 03:00:00,Wilayah Persekutuan Kuala Lumpur,"Jalan Mahameru-Jalan Tun Razak(Road) ,Kuala Lumpur","Jalan Mahameru-Jalan Tun Razak(Road) ,Kuala Lumpur",10km,101.684,3.1621,10000
+POS_0129,COOLR_5814,2014-01-22 00:00:00,Sarawak,"Suai, Niah, Sarwak","Suai, Niah, Sarwak",10km,113.6308,3.7944,10000
+POS_0130,COOLR_834,2008-10-10 00:00:00,Pulau Pinang,"Jalan Tun Sardon road, Balik Pulau, Penang","Jalan Tun Sardon road, Balik Pulau, Penang",10km,100.266,5.35,10000
+POS_0112,COOLR_830,2008-10-07 00:00:00,Wilayah Persekutuan Kuala Lumpur,"Gombak River, near Kuala Lumpur","Gombak River, near Kuala Lumpur",10km,101.699,3.19,10000
+POS_0004,COOLR_777,2008-09-06 00:00:00,Pulau Pinang,"Jalan Tun Sardon, a major road linking Relau and Balik Pulau","Jalan Tun Sardon, a major road linking Relau and Balik Pulau",10km,100.2487,5.345,10000
+POS_0040,COOLR_5734,2013-12-30 07:00:00,Sarawak,"Kampung Simboh, Jalan Mambong Sarig In Penrissen","Kampung Simboh, Jalan Mambong Sarig In Penrissen",10km,110.36,1.3745,10000
+POS_0005,COOLR_429,2008-01-16 17:30:00,Pahang,Cameron Highlands,Cameron Highlands,10km,101.3941,4.4606,10000
+POS_0073,COOLR_9175,2016-06-08 03:00:00,Sarawak,"SK Kampung Buda, Spaoh/Betong, Sarawak, Malaysia","SK Kampung Buda, Spaoh/Betong, Sarawak, Malaysia",10km,111.4116,1.47,10000
+POS_0062,COOLR_846,2008-10-15 00:00:00,Wilayah Persekutuan Kuala Lumpur,"Pinggir Bukit Segar, Cheras","Pinggir Bukit Segar, Cheras",10km,101.746,3.0949,10000
+POS_0095,COOLR_14123,2018-12-16 16:10:33,Sarawak,"1, Sibu, Division Sibu, 96000, Sarawak",Landslide on road to longhouses at Sungai Pak Durin,10km,111.98540954800006,2.228031760000022,10000

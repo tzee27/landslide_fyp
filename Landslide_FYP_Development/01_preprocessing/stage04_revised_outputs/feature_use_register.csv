@@ -1,0 +1,11 @@
+feature,temporal_type,candidate_rejection_rule,model_use
+elevation,quasi-static,reject only NoData/invalid pixel,baseline
+slope,quasi-static,reject only NoData/invalid pixel,baseline
+aspect,quasi-static,reject only NoData/invalid pixel,baseline
+soil,quasi-static,reject only missing required coverage,baseline if coverage valid
+lithology,relatively static,do not select low-risk classes; require valid coverage,baseline if national coverage valid
+distance_to_fault,relatively static,not a rejection criterion,baseline if coverage valid
+distance_to_waterway,time-sensitive / imperfect history,not a rejection criterion,baseline-with-limitation or enhanced model
+road_distance,time-sensitive,not a rejection criterion,historical road snapshot where defensible
+land_cover,time-sensitive,water/invalid pixel may be rejected; do not reject steep/forest/crop etc.,match source year to event/reference year
+rainfall,event-time sensitive,not used to choose easy negatives,date-matched enhanced model

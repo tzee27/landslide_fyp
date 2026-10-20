@@ -1,0 +1,15 @@
+check,value
+Raw COOLR records,236
+Raw resolved JMG records,52
+Combined raw candidates,288
+COOLR duplicate rows excluded,1
+JMG duplicate rows excluded,0
+Cross-source duplicate rows excluded,0
+Total duplicate rows excluded,1
+Final unique positive records,287
+Final COOLR positives,235
+Final JMG positives,52
+Final positives inside Malaysia,287
+Final positives with event date,282
+Final positives without event date,5
+Strong cross-source candidate pairs,0

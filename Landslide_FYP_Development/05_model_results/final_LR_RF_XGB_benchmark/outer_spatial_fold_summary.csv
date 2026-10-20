@@ -1,0 +1,6 @@
+fold,train_rows,test_rows,train_positive,train_control,test_positive,test_control,train_groups,test_groups,group_overlap
+1,464,118,154,310,40,78,132,35,0
+2,463,119,154,309,40,79,134,33,0
+3,467,115,156,311,38,77,135,32,0
+4,467,115,156,311,38,77,132,35,0
+5,467,115,156,311,38,77,135,32,0

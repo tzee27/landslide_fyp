@@ -1,0 +1,5 @@
+model_subset,rows,matched_groups,cases,controls
+Rainfall,567,189,189,378
+Rainfall + ERA5 soil moisture,474,158,158,316
+Historical land cover,444,148,148,296
+Full temporal enhanced,363,121,121,242

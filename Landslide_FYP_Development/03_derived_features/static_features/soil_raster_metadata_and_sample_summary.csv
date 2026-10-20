@@ -1,0 +1,5 @@
+feature,file,crs,resolution_x,resolution_y,nodata,dtype,min_sample,max_sample,missing_samples
+soil_clay,soilgrids_clay_malaysia.tif,ESRI:54009,250.0,250.0,,int16,0,669,0
+soil_sand,soilgrids_sand_malaysia.tif,ESRI:54009,250.0,250.0,,int16,0,527,0
+soil_silt,soilgrids_silt_malaysia.tif,ESRI:54009,250.0,250.0,,int16,0,438,0
+soil_bulk_density,soilgrids_bdod_malaysia.tif,ESRI:54009,250.0,250.0,,int16,0,132,0

@@ -1,0 +1,55 @@
+model_subset,reference_year,case_count
+Rainfall,2007,2
+Rainfall,2008,4
+Rainfall,2009,7
+Rainfall,2010,5
+Rainfall,2011,14
+Rainfall,2012,9
+Rainfall,2013,16
+Rainfall,2014,23
+Rainfall,2015,15
+Rainfall,2016,17
+Rainfall,2017,22
+Rainfall,2018,8
+Rainfall,2021,46
+Rainfall,2022,1
+Rainfall + ERA5 soil moisture,2007,2
+Rainfall + ERA5 soil moisture,2008,3
+Rainfall + ERA5 soil moisture,2009,7
+Rainfall + ERA5 soil moisture,2010,5
+Rainfall + ERA5 soil moisture,2011,10
+Rainfall + ERA5 soil moisture,2012,6
+Rainfall + ERA5 soil moisture,2013,10
+Rainfall + ERA5 soil moisture,2014,20
+Rainfall + ERA5 soil moisture,2015,15
+Rainfall + ERA5 soil moisture,2016,15
+Rainfall + ERA5 soil moisture,2017,19
+Rainfall + ERA5 soil moisture,2018,6
+Rainfall + ERA5 soil moisture,2021,39
+Rainfall + ERA5 soil moisture,2022,1
+Historical land cover,2007,2
+Historical land cover,2008,4
+Historical land cover,2009,7
+Historical land cover,2010,5
+Historical land cover,2011,14
+Historical land cover,2012,9
+Historical land cover,2013,16
+Historical land cover,2014,23
+Historical land cover,2016,9
+Historical land cover,2017,10
+Historical land cover,2018,8
+Historical land cover,2021,40
+Historical land cover,2022,1
+Full temporal enhanced,2007,2
+Full temporal enhanced,2008,3
+Full temporal enhanced,2009,7
+Full temporal enhanced,2010,5
+Full temporal enhanced,2011,10
+Full temporal enhanced,2012,6
+Full temporal enhanced,2013,10
+Full temporal enhanced,2014,20
+Full temporal enhanced,2016,9
+Full temporal enhanced,2017,8
+Full temporal enhanced,2018,6
+Full temporal enhanced,2021,34
+Full temporal enhanced,2022,1

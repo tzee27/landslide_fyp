@@ -1,0 +1,7 @@
+audit_id,SOURCE_FILE,ID_Tanah_R,RSOx,RSOy,WGSe,WGSn,Negeri,Daerah,source_date_candidate,duplicate_jmg_id,duplicate_jmg_exact_rso
+JMG_037,ch_TANAH_RUNTUH_SEMENANJUNG_.shp,AY44201_LS_05,376296.0,497079.0,0.0,0.0,Pahang,Cameron Highlands,2021-12-19,True,False
+JMG_038,ch_TANAH_RUNTUH_SEMENANJUNG_.shp,AY44201_LS_05,376020.0,495378.0,101.0,4.0,Pahang,Cameron Highlands,2021-12-19,True,False
+JMG_042,ch_TANAH_RUNTUH_SEMENANJUNG_.shp,AY44201_M_01_SF_01,377057.0,497079.0,0.0,0.0,Pahang,Cameron Highlands,2021-05-29,False,True
+JMG_043,ch_TANAH_RUNTUH_SEMENANJUNG_.shp,AY44201_M_02_SF_01,377057.0,497079.0,0.0,0.0,Pahang,Cameron Highlands,2021-01-06,False,True
+JMG_049,pp_TANAH_RUNTUH_SEMENANJUNG_.shp,FH2101_M_01_SF_01,256719.82,603963.5,100.0,5.0,Pulau Pinang,Timor Laut,2021-10-30,True,False
+JMG_050,pp_TANAH_RUNTUH_SEMENANJUNG_.shp,FH2101_M_01_SF_01,256544.0,604104.0,100.0,5.0,Pulau Pinang,Timor Laut,2021-09-28,True,False

@@ -1,0 +1,12 @@
+check,value
+Positive landslide records,287.0
+Master pseudo-absence target,861.0
+Master pseudo-absences generated,861.0
+Baseline 1:2 pseudo-absences,574.0
+Baseline total modelling samples,861.0
+Pseudo-absences outside eligible area,0.0
+Minimum pseudo-to-pseudo separation m,2071.74
+Sampling grid size m,50000.0
+Random seed,42.0
+Eligible Malaysia area km2,155236.38
+Positive-buffer excluded area km2,174583.51

@@ -1,0 +1,7 @@
+dataset,rows,positives,controls,validation_groups
+Static baseline 1:2,582,194,388,167
+Static sensitivity 1:1,388,194,194,149
+Temporal rainfall,567,189,378,38
+Temporal rainfall_soilmoisture,474,158,316,34
+Temporal landcover,444,148,296,33
+Temporal full_enhanced,363,121,242,28

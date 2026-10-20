@@ -1,0 +1,5 @@
+sample_class,soil_valid_final,records
+background_candidate,False,70
+background_candidate,True,2930
+landslide,False,6
+landslide,True,194

@@ -1,0 +1,14 @@
+check,value
+JMG raw rows,52
+COOLR raw rows,236
+Raw total candidates (NOT unique count),288
+COOLR inside Malaysia boundary,236
+COOLR outside Malaysia boundary,0
+COOLR parsed event dates,236
+COOLR repeated event-ID rows,0
+COOLR repeated exact-coordinate rows,2
+JMG usable decimal WGS84 rows,4
+JMG WGS84 unresolved/not precise rows,48
+JMG complete valid source-date fields,47
+JMG repeated non-null ID rows,4
+JMG repeated exact RSO-coordinate rows,2

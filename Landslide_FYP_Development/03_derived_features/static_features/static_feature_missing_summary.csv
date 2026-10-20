@@ -1,0 +1,10 @@
+feature,missing_count,missing_pct
+elevation_m,0,0.0
+slope_deg,0,0.0
+aspect_deg,0,0.0
+soil_clay,0,0.0
+soil_sand,0,0.0
+soil_silt,0,0.0
+soil_bulk_density,0,0.0
+lithology_raw,1849,57.78
+distance_major_fault_m,0,0.0

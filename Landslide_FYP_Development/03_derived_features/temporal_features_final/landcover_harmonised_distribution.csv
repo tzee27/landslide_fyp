@@ -1,0 +1,13 @@
+landcover_source,landcover_harmonised,records
+Dynamic_World,FOREST,192
+Dynamic_World,BUILT,61
+Dynamic_World,CROPLAND,3
+Dynamic_World,GRASS,3
+Dynamic_World,WATER,3
+Dynamic_World,OTHER,1
+GLC_FCS30D,FOREST,148
+GLC_FCS30D,BUILT,40
+GLC_FCS30D,CROPLAND,28
+GLC_FCS30D,SHRUB,20
+GLC_FCS30D,WETLAND,4
+,,64
