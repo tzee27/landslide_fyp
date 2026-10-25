@@ -1,0 +1,12 @@
+dataset,column,rows,non_null,distinct,duplicates
+reviewed,positive_id,287,287,287,0
+eligible,positive_id,200,200,200,0
+static,sample_id,194,194,194,0
+temporal_rainfall,matched_positive_id,189,189,189,0
+temporal_rainfall,sample_id,189,189,189,0
+temporal_rainfall_soilmoisture,matched_positive_id,158,158,158,0
+temporal_rainfall_soilmoisture,sample_id,158,158,158,0
+temporal_landcover,matched_positive_id,148,148,148,0
+temporal_landcover,sample_id,148,148,148,0
+temporal_full_enhanced,matched_positive_id,121,121,121,0
+temporal_full_enhanced,sample_id,121,121,121,0

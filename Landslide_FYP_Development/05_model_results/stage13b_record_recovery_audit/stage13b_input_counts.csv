@@ -1,0 +1,11 @@
+dataset,all_rows,case_rows,columns
+reviewed,287,287,19
+eligible,200,200,29
+stage04,287,287,29
+static_master,3200,200,49
+static_model,582,194,53
+temporal_annotated,567,189,92
+rainfall,567,189,90
+rainfall_soilmoisture,474,158,91
+landcover,444,148,91
+full_enhanced,363,121,92

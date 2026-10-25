@@ -1,0 +1,8 @@
+gate,status,detail
+Static vs temporal case IDs,REVIEW REQUIRED,"Verify same event ID, location and event date where available"
+Temporal missingness,AUDITED,Check per-case missing feature flags and source availability
+Event timestamps,REVIEW REQUIRED,Confirm source observation windows are strictly before event/reference date
+Static six-case QC,REVIEW REQUIRED,Validate soil nodata and sample ID semantics before including
+Historical control construction,REVIEW REQUIRED,Any recovered positive needs defensible temporally matched controls
+LR/RF/XGBoost benchmark,PRESERVED,Original Stage 08–11 nested spatial metrics remain valid for original sample set
+National mapping,NOT VERIFIED,Separate Stage 13C nationwide predictor raster coverage audit required

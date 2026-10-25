@@ -1,0 +1,59 @@
+{
+    "branch": "static",
+    "algorithm": "Random Forest",
+    "numeric_features": [
+        "elevation_m",
+        "slope_deg",
+        "aspect_sin",
+        "aspect_cos",
+        "soil_clay",
+        "soil_sand",
+        "soil_silt",
+        "soil_bulk_density",
+        "distance_major_fault_m",
+        "log_distance_major_fault_m",
+        "slope_sq",
+        "elevation_slope_interaction",
+        "distance_waterway_current_m",
+        "log_distance_waterway_current_m"
+    ],
+    "categorical_features": [
+        "geology_age",
+        "geology_unit_type"
+    ],
+    "feature_order": [
+        "elevation_m",
+        "slope_deg",
+        "aspect_sin",
+        "aspect_cos",
+        "soil_clay",
+        "soil_sand",
+        "soil_silt",
+        "soil_bulk_density",
+        "distance_major_fault_m",
+        "log_distance_major_fault_m",
+        "slope_sq",
+        "elevation_slope_interaction",
+        "distance_waterway_current_m",
+        "log_distance_waterway_current_m",
+        "geology_age",
+        "geology_unit_type"
+    ],
+    "n_rows": 582,
+    "n_cases": 194,
+    "n_controls": 388,
+    "spatial_group_column": "spatial_block_id",
+    "hyperparameters": {
+        "model__n_estimators": 800,
+        "model__min_samples_split": 5,
+        "model__min_samples_leaf": 2,
+        "model__max_features": "log2",
+        "model__max_depth": 7
+    },
+    "tuning_design": "3-fold StratifiedGroupKFold on all development data",
+    "tuning_best_roc_auc": 0.9070494821759062,
+    "training_roc_auc_diagnostic_only": 0.9915373578488682,
+    "training_pr_auc_diagnostic_only": 0.9841519321963668,
+    "score_meaning": "relative case-control susceptibility/condition score, NOT event probability",
+    "deployment_status": "candidate; national predictor coverage and temporal/leakage audits pending"
+}

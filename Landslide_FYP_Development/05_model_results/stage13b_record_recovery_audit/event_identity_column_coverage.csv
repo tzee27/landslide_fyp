@@ -1,0 +1,3 @@
+dataset,latitude_column,longitude_column,date_column
+static,latitude,longitude,
+full,latitude,longitude,

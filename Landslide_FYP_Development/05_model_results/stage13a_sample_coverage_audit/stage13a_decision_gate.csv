@@ -1,0 +1,8 @@
+check,status,note
+Model-ready class ratios,AUDITED,See sample_retention_funnel.csv
+Individual historical-case eligibility causes,REVIEW REQUIRED,Review stage04 and static reason distributions
+Complete temporal source missingness,AUDITED IF SOURCE AVAILABLE,See temporal_source_missingness.csv
+Static-to-temporal case identity matching,REVIEW REQUIRED,Require trusted ID crosswalk; do not deduplicate by coordinates
+Nationwide static predictor surface,NOT YET VALIDATED,"Requires aligned nationwide rasters, vector processing and no-data audit"
+Three-algorithm spatial benchmark and metrics,PRESERVED,"Use Stage 08–11 held-out ROC-AUC, PR-AUC, balanced accuracy, precision, recall, F1 and confusion matrix"
+Production RF pipelines,PRESERVED,Do not retrain unless the model-ready dataset is formally revised; rerun all comparable validation if revised

@@ -1,0 +1,5 @@
+subset,static_cases,retained_static_cases,absent_static_cases
+rainfall,194,189,5
+rainfall_soilmoisture,194,158,36
+landcover,194,148,46
+full_enhanced,194,121,73

@@ -1,0 +1,9 @@
+feature,missing_among_static_not_full,missing_among_full,source_column_exists
+rain_1d_mm,5,0,True
+rain_3d_mm,5,0,True
+rain_7d_mm,5,0,True
+rain_30d_mm,5,0,True
+soil_moisture_0_7cm_7d_mean,22,0,True
+soil_moisture_7_28cm_7d_mean,22,0,True
+landcover_harmonised,20,0,True
+distance_waterway_current_m,5,0,True

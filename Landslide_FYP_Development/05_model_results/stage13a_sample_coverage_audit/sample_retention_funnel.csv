@@ -1,0 +1,8 @@
+step,cases,controls,total,retained_pct_of_reviewed,ratio_check_1to2
+Reviewed inventory,287,0,287,100.0,
+Coordinate-eligible inventory,200,0,200,69.68641114982579,
+Final static 1:2 model,194,388,582,67.59581881533101,1.0
+Temporal rainfall,189,378,567,65.85365853658537,1.0
+Temporal rainfall_soilmoisture,158,316,474,55.05226480836237,1.0
+Temporal landcover,148,296,444,51.56794425087108,1.0
+Temporal full_enhanced,121,242,363,42.1602787456446,1.0

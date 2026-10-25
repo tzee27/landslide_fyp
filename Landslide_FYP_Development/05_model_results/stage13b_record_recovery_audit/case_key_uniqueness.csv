@@ -1,0 +1,6 @@
+dataset,cases,null_ids,duplicate_ids,unique_ids
+static_model,194,0,0,194
+rainfall,189,0,0,189
+rainfall_soilmoisture,158,0,0,158
+landcover,148,0,0,148
+full_enhanced,121,0,0,121

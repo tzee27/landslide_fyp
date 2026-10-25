@@ -1,0 +1,8 @@
+check,status,required_action
+Nested spatial model comparison,COMPLETED IN STAGE 11,Use Stage 08/09 spatial benchmark results as held-out evidence
+Saved pipeline reproducibility,PASSED,Confirm joblib pipeline and feature schema
+Nationwide feature coverage,PENDING,"Verify every static predictor can be generated over Peninsular Malaysia, Sabah and Sarawak"
+Temporal date cutoffs / leakage,PENDING,Confirm antecedent data are prior to each event/control date; inspect matched groups
+Independent pseudo-absence redraw,NOT COMPLETED,Optional further sensitivity or report remaining limitation
+Buffered spatial validation,NOT COMPLETED,Optional more conservative test or report remaining limitation
+Five national susceptibility classes,STAGE 14,Assess continuous national scores before setting thresholds

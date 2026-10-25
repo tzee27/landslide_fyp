@@ -1,0 +1,7 @@
+source,path,exists,verified_national_coverage
+Malaysia boundary,C:\Landslide_FYP\Landslide_FYP_Data\02_Boundary\mys_admin0.geojson,True,False
+Soil clay,C:\Landslide_FYP\Landslide_FYP_Data\03_Factors\Soil\Clay\soilgrids_clay_malaysia.tif,True,False
+Soil sand,C:\Landslide_FYP\Landslide_FYP_Data\03_Factors\Soil\Sand\soilgrids_sand_malaysia.tif,True,False
+Soil silt,C:\Landslide_FYP\Landslide_FYP_Data\03_Factors\Soil\Silt\soilgrids_silt_malaysia.tif,True,False
+Soil bulk density,C:\Landslide_FYP\Landslide_FYP_Data\03_Factors\Soil\Bulk_Density\soilgrids_bdod_malaysia.tif,True,False
+Waterways,C:\Landslide_FYP\Landslide_FYP_Data\03_Factors\Waterways\gis_osm_waterways_free_1.shp,True,False
