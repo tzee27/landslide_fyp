@@ -1,0 +1,13 @@
+{
+  "reviewed_inventory_count": 287,
+  "original_ml_eligible_count": 200,
+  "coordinate_ineligible_count": 87,
+  "review_queue_with_links": 0,
+  "review_queue_with_descriptions": 87,
+  "independently_approved_coordinate_recoveries": 0,
+  "potentially_complete_manual_evidence_packages": 0,
+  "model_retraining_authorized": false,
+  "current_static_positive_count": 194,
+  "current_temporal_positive_count": 121,
+  "note": "Manual and independent verification plus original Stage04 spatial/accuracy and full feature QC required before approval."
+}

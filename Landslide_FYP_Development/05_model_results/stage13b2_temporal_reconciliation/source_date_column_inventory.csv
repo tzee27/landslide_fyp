@@ -1,0 +1,7 @@
+column,present_rows,dtype
+event_date_parsed,189,str
+event_year,189,float64
+reference_date,567,str
+reference_year,567,float64
+landcover_year,567,int64
+reference_date_parsed,567,datetime64[us]

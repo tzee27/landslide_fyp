@@ -1,0 +1,69 @@
+matched_positive_id,structure_valid,case_all_rules_pass,both_controls_all_rules_pass,case_failure_reasons,case_failed_rules,control_failure_reasons,control_failed_rules,recovery_category
+POS_0002,True,False,True,,soil_moisture, | , | ,CASE_AND_OR_CONTROL_FAILURE
+POS_0006,True,False,False,landcover_missing_or_unmapped; landcover_reliability_not_high,strict_landcover,landcover_missing_or_unmapped; landcover_reliability_not_high | landcover_missing_or_unmapped; landcover_reliability_not_high,strict_landcover | strict_landcover,CASE_AND_OR_CONTROL_FAILURE
+POS_0008,True,True,False,,, | , | soil_moisture,CONTROL_ONLY_FAILURE
+POS_0013,True,True,False,,,landcover_missing_or_unmapped; landcover_reliability_not_high | ,strict_landcover | ,CONTROL_ONLY_FAILURE
+POS_0014,True,False,False,landcover_reliability_not_high,strict_landcover,landcover_missing_or_unmapped; landcover_reliability_not_high | landcover_missing_or_unmapped; landcover_reliability_not_high,strict_landcover | strict_landcover,CASE_AND_OR_CONTROL_FAILURE
+POS_0017,True,False,True,,soil_moisture, | , | ,CASE_AND_OR_CONTROL_FAILURE
+POS_0020,True,True,False,,, | ,soil_moisture | ,CONTROL_ONLY_FAILURE
+POS_0021,True,False,False,landcover_missing_or_unmapped; landcover_reliability_not_high,strict_landcover,landcover_reliability_not_high | landcover_missing_or_unmapped; landcover_reliability_not_high,strict_landcover | strict_landcover,CASE_AND_OR_CONTROL_FAILURE
+POS_0022,True,True,False,,, | landcover_missing_or_unmapped; landcover_reliability_not_high, | strict_landcover,CONTROL_ONLY_FAILURE
+POS_0023,True,True,False,,, | ,soil_moisture | ,CONTROL_ONLY_FAILURE
+POS_0024,True,True,False,,,landcover_missing_or_unmapped; landcover_reliability_not_high | ,strict_landcover | ,CONTROL_ONLY_FAILURE
+POS_0031,True,False,False,,soil_moisture,landcover_missing_or_unmapped; landcover_reliability_not_high | ,strict_landcover | ,CASE_AND_OR_CONTROL_FAILURE
+POS_0035,True,False,False,landcover_missing_or_unmapped; landcover_reliability_not_high,strict_landcover, | landcover_missing_or_unmapped; landcover_reliability_not_high, | strict_landcover,CASE_AND_OR_CONTROL_FAILURE
+POS_0043,True,False,True,,soil_moisture, | , | ,CASE_AND_OR_CONTROL_FAILURE
+POS_0046,True,True,False,,, | landcover_missing_or_unmapped; landcover_reliability_not_high, | strict_landcover,CONTROL_ONLY_FAILURE
+POS_0048,True,False,True,,soil_moisture, | , | ,CASE_AND_OR_CONTROL_FAILURE
+POS_0051,True,True,False,,, | ,soil_moisture | ,CONTROL_ONLY_FAILURE
+POS_0052,True,False,False,landcover_missing_or_unmapped; landcover_reliability_not_high,strict_landcover,landcover_missing_or_unmapped; landcover_reliability_not_high | landcover_missing_or_unmapped; landcover_reliability_not_high,strict_landcover | strict_landcover,CASE_AND_OR_CONTROL_FAILURE
+POS_0053,True,True,False,,,landcover_missing_or_unmapped; landcover_reliability_not_high | ,strict_landcover | ,CONTROL_ONLY_FAILURE
+POS_0057,True,True,False,,, | , | soil_moisture,CONTROL_ONLY_FAILURE
+POS_0059,True,True,False,,,landcover_missing_or_unmapped; landcover_reliability_not_high | landcover_missing_or_unmapped; landcover_reliability_not_high,strict_landcover | strict_landcover,CONTROL_ONLY_FAILURE
+POS_0060,True,False,True,,soil_moisture, | , | ,CASE_AND_OR_CONTROL_FAILURE
+POS_0071,True,True,False,,, | , | soil_moisture,CONTROL_ONLY_FAILURE
+POS_0088,True,False,False,landcover_missing_or_unmapped; landcover_reliability_not_high,strict_landcover,landcover_missing_or_unmapped; landcover_reliability_not_high | landcover_missing_or_unmapped; landcover_reliability_not_high,strict_landcover | strict_landcover,CASE_AND_OR_CONTROL_FAILURE
+POS_0089,True,False,False,landcover_missing_or_unmapped; landcover_reliability_not_high,strict_landcover,landcover_reliability_not_high | landcover_missing_or_unmapped; landcover_reliability_not_high,strict_landcover | strict_landcover,CASE_AND_OR_CONTROL_FAILURE
+POS_0091,True,False,False,landcover_missing_or_unmapped; landcover_reliability_not_high,strict_landcover,landcover_missing_or_unmapped; landcover_reliability_not_high | landcover_reliability_not_high,strict_landcover | strict_landcover,CASE_AND_OR_CONTROL_FAILURE
+POS_0094,True,True,False,,, | , | soil_moisture,CONTROL_ONLY_FAILURE
+POS_0101,True,False,False,landcover_missing_or_unmapped; landcover_reliability_not_high,strict_landcover,landcover_missing_or_unmapped; landcover_reliability_not_high | landcover_missing_or_unmapped; landcover_reliability_not_high,strict_landcover | strict_landcover,CASE_AND_OR_CONTROL_FAILURE
+POS_0102,True,False,False,landcover_missing_or_unmapped; landcover_reliability_not_high,strict_landcover,landcover_missing_or_unmapped; landcover_reliability_not_high | landcover_reliability_not_high,strict_landcover | strict_landcover,CASE_AND_OR_CONTROL_FAILURE
+POS_0107,True,False,False,landcover_missing_or_unmapped; landcover_reliability_not_high,strict_landcover,landcover_missing_or_unmapped; landcover_reliability_not_high | landcover_missing_or_unmapped; landcover_reliability_not_high,strict_landcover | strict_landcover,CASE_AND_OR_CONTROL_FAILURE
+POS_0122,True,True,False,,, | landcover_missing_or_unmapped; landcover_reliability_not_high, | strict_landcover,CONTROL_ONLY_FAILURE
+POS_0126,True,True,False,,,landcover_missing_or_unmapped; landcover_reliability_not_high | ,strict_landcover | ,CONTROL_ONLY_FAILURE
+POS_0128,True,False,True,landcover_missing_or_unmapped; landcover_reliability_not_high,strict_landcover, | , | ,CASE_AND_OR_CONTROL_FAILURE
+POS_0131,True,True,False,,, | landcover_missing_or_unmapped; landcover_reliability_not_high, | strict_landcover,CONTROL_ONLY_FAILURE
+POS_0135,True,True,False,,, | , | soil_moisture,CONTROL_ONLY_FAILURE
+POS_0136,True,False,True,,soil_moisture, | , | ,CASE_AND_OR_CONTROL_FAILURE
+POS_0138,True,False,False,landcover_reliability_not_high,strict_landcover,landcover_missing_or_unmapped; landcover_reliability_not_high | landcover_missing_or_unmapped; landcover_reliability_not_high,strict_landcover | strict_landcover,CASE_AND_OR_CONTROL_FAILURE
+POS_0139,True,False,True,,soil_moisture, | , | ,CASE_AND_OR_CONTROL_FAILURE
+POS_0152,True,False,True,,soil_moisture, | , | ,CASE_AND_OR_CONTROL_FAILURE
+POS_0155,True,False,False,landcover_missing_or_unmapped; landcover_reliability_not_high,strict_landcover,landcover_missing_or_unmapped; landcover_reliability_not_high | landcover_missing_or_unmapped; landcover_reliability_not_high,strict_landcover | strict_landcover,CASE_AND_OR_CONTROL_FAILURE
+POS_0156,True,True,False,,,control_over_water | ,strict_landcover | ,CONTROL_ONLY_FAILURE
+POS_0159,True,True,False,,, | ,soil_moisture | ,CONTROL_ONLY_FAILURE
+POS_0171,True,False,False,landcover_missing_or_unmapped; landcover_reliability_not_high,strict_landcover,landcover_missing_or_unmapped; landcover_reliability_not_high | ,strict_landcover | ,CASE_AND_OR_CONTROL_FAILURE
+POS_0185,True,False,True,,soil_moisture, | , | ,CASE_AND_OR_CONTROL_FAILURE
+POS_0187,True,False,False,landcover_missing_or_unmapped; landcover_reliability_not_high,strict_landcover,landcover_missing_or_unmapped; landcover_reliability_not_high | landcover_missing_or_unmapped; landcover_reliability_not_high,strict_landcover | strict_landcover,CASE_AND_OR_CONTROL_FAILURE
+POS_0191,True,False,False,,soil_moisture,landcover_missing_or_unmapped; landcover_reliability_not_high | ,strict_landcover | ,CASE_AND_OR_CONTROL_FAILURE
+POS_0195,True,True,False,,, | , | soil_moisture,CONTROL_ONLY_FAILURE
+POS_0197,True,False,False,,soil_moisture, | , | soil_moisture,CASE_AND_OR_CONTROL_FAILURE
+POS_0206,True,True,False,,,landcover_missing_or_unmapped; landcover_reliability_not_high | ,strict_landcover | ,CONTROL_ONLY_FAILURE
+POS_0209,True,True,False,,,landcover_missing_or_unmapped; landcover_reliability_not_high | ,strict_landcover | ,CONTROL_ONLY_FAILURE
+POS_0212,True,True,False,,, | landcover_missing_or_unmapped; landcover_reliability_not_high, | strict_landcover,CONTROL_ONLY_FAILURE
+POS_0214,True,False,True,,soil_moisture, | , | ,CASE_AND_OR_CONTROL_FAILURE
+POS_0218,True,True,False,,, | control_over_water, | strict_landcover,CONTROL_ONLY_FAILURE
+POS_0226,True,False,False,,soil_moisture, | landcover_missing_or_unmapped; landcover_reliability_not_high,soil_moisture | strict_landcover,CASE_AND_OR_CONTROL_FAILURE
+POS_0227,True,False,False,landcover_reliability_not_high,strict_landcover,landcover_missing_or_unmapped; landcover_reliability_not_high | landcover_missing_or_unmapped; landcover_reliability_not_high,strict_landcover | strict_landcover,CASE_AND_OR_CONTROL_FAILURE
+POS_0230,True,False,False,landcover_missing_or_unmapped; landcover_reliability_not_high,strict_landcover,landcover_missing_or_unmapped; landcover_reliability_not_high | landcover_missing_or_unmapped; landcover_reliability_not_high,strict_landcover | strict_landcover,CASE_AND_OR_CONTROL_FAILURE
+POS_0240,True,True,False,,,landcover_missing_or_unmapped; landcover_reliability_not_high | ,strict_landcover | ,CONTROL_ONLY_FAILURE
+POS_0254,True,True,False,,, | control_over_water, | strict_landcover,CONTROL_ONLY_FAILURE
+POS_0255,True,True,False,,, | ,soil_moisture | ,CONTROL_ONLY_FAILURE
+POS_0260,True,True,False,,,landcover_missing_or_unmapped; landcover_reliability_not_high | ,strict_landcover | ,CONTROL_ONLY_FAILURE
+POS_0263,True,True,False,,, | landcover_missing_or_unmapped; landcover_reliability_not_high, | strict_landcover,CONTROL_ONLY_FAILURE
+POS_0265,True,True,False,,,landcover_missing_or_unmapped; landcover_reliability_not_high | ,strict_landcover | ,CONTROL_ONLY_FAILURE
+POS_0272,True,True,False,,, | ,soil_moisture | ,CONTROL_ONLY_FAILURE
+POS_0277,True,True,False,,, | , | soil_moisture,CONTROL_ONLY_FAILURE
+POS_0280,True,False,True,,soil_moisture, | , | ,CASE_AND_OR_CONTROL_FAILURE
+POS_0281,True,False,False,,soil_moisture,landcover_missing_or_unmapped; landcover_reliability_not_high | ,strict_landcover | ,CASE_AND_OR_CONTROL_FAILURE
+POS_0282,True,False,True,,soil_moisture, | , | ,CASE_AND_OR_CONTROL_FAILURE
+POS_0287,True,True,False,,, | , | soil_moisture,CONTROL_ONLY_FAILURE

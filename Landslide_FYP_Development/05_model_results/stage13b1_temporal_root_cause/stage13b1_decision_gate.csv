@@ -1,0 +1,7 @@
+gate,status,detail
+Dataset count and ID audit,PASS_IF_NO_WARNINGS,Review printed counts and uniqueness results
+Complete-feature excluded case triage,REVIEW_REQUIRED,36 apparently complete cases; not approved for recovery
+Original Stage 05B eligibility rules,REVIEW_REQUIRED,Compare source_filter_rule_inventory.csv with case-level exclusions
+Temporal reference dates,REVIEW_REQUIRED,"Set confirmed field mappings and check extraction windows, including historical annual land-cover"
+Control matching for added cases,REVIEW_REQUIRED,Existing controls for included cases do not establish valid controls for excluded cases
+Ready to replace production data,NOT_APPROVED,No automatic recovery or retraining was performed

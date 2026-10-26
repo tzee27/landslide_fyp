@@ -1,0 +1,568 @@
+matched_positive_id,sample_id,temporal_role,case_row_complete,group_full_valid,failed_rules,specific_reasons,reference_date,landcover_source,landcover_reliability,landcover_harmonised
+POS_0001,POS_0001,case,True,True,,,2010-09-28 19:32:24,GLC_FCS30D,HIGH,CROPLAND
+POS_0001,BG_01886,matched_control,True,True,,,2010-09-28 19:32:24,GLC_FCS30D,HIGH,FOREST
+POS_0001,BG_01238,matched_control,True,True,,,2010-09-28 19:32:24,GLC_FCS30D,HIGH,FOREST
+POS_0002,POS_0002,case,False,False,soil_moisture,,2013-09-11 00:00:00,GLC_FCS30D,HIGH,CROPLAND
+POS_0002,BG_02191,matched_control,False,False,,,2013-09-11 00:00:00,GLC_FCS30D,HIGH,FOREST
+POS_0002,BG_02068,matched_control,False,False,,,2013-09-11 00:00:00,GLC_FCS30D,HIGH,FOREST
+POS_0003,POS_0003,case,True,True,,,2013-07-16 00:00:00,GLC_FCS30D,HIGH,BUILT
+POS_0003,BG_02079,matched_control,True,True,,,2013-07-16 00:00:00,GLC_FCS30D,HIGH,FOREST
+POS_0003,BG_01283,matched_control,True,True,,,2013-07-16 00:00:00,GLC_FCS30D,HIGH,FOREST
+POS_0006,POS_0006,case,False,False,strict_landcover,landcover_missing_or_unmapped; landcover_reliability_not_high,2015-11-07 18:00:00,,MISSING,
+POS_0006,BG_02261,matched_control,False,False,strict_landcover,landcover_missing_or_unmapped; landcover_reliability_not_high,2015-11-07 18:00:00,,MISSING,
+POS_0006,BG_00915,matched_control,False,False,strict_landcover,landcover_missing_or_unmapped; landcover_reliability_not_high,2015-11-07 18:00:00,,MISSING,
+POS_0007,POS_0007,case,True,True,,,2011-04-29 04:00:00,GLC_FCS30D,HIGH,BUILT
+POS_0007,BG_00494,matched_control,True,True,,,2011-04-29 04:00:00,GLC_FCS30D,HIGH,FOREST
+POS_0007,BG_00672,matched_control,True,True,,,2011-04-29 04:00:00,GLC_FCS30D,HIGH,FOREST
+POS_0008,POS_0008,case,True,False,,,2011-11-25 00:00:00,GLC_FCS30D,HIGH,BUILT
+POS_0008,BG_01866,matched_control,True,False,,,2011-11-25 00:00:00,GLC_FCS30D,HIGH,FOREST
+POS_0008,BG_01201,matched_control,True,False,soil_moisture,,2011-11-25 00:00:00,GLC_FCS30D,HIGH,FOREST
+POS_0009,POS_0009,case,True,True,,,2018-11-02 18:45:58,Dynamic_World,HIGH,BUILT
+POS_0009,BG_02740,matched_control,True,True,,,2018-11-02 18:45:58,Dynamic_World,HIGH,FOREST
+POS_0009,BG_01099,matched_control,True,True,,,2018-11-02 18:45:58,Dynamic_World,HIGH,FOREST
+POS_0010,POS_0010,case,True,True,,,2012-10-21 00:00:00,GLC_FCS30D,HIGH,BUILT
+POS_0010,BG_00107,matched_control,True,True,,,2012-10-21 00:00:00,GLC_FCS30D,HIGH,SHRUB
+POS_0010,BG_00698,matched_control,True,True,,,2012-10-21 00:00:00,GLC_FCS30D,HIGH,FOREST
+POS_0013,POS_0013,case,True,False,,,2016-07-22 00:00:00,Dynamic_World,HIGH,BUILT
+POS_0013,BG_00761,matched_control,True,False,strict_landcover,landcover_missing_or_unmapped; landcover_reliability_not_high,2016-07-22 00:00:00,,MISSING,
+POS_0013,BG_01842,matched_control,True,False,,,2016-07-22 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0014,POS_0014,case,False,False,strict_landcover,landcover_reliability_not_high,2015-11-09 08:30:00,Dynamic_World,LOW_PARTIAL_YEAR,BUILT
+POS_0014,BG_02104,matched_control,False,False,strict_landcover,landcover_missing_or_unmapped; landcover_reliability_not_high,2015-11-09 08:30:00,,MISSING,
+POS_0014,BG_01137,matched_control,False,False,strict_landcover,landcover_missing_or_unmapped; landcover_reliability_not_high,2015-11-09 08:30:00,,MISSING,
+POS_0015,POS_0015,case,True,True,,,2013-03-01 04:00:00,GLC_FCS30D,HIGH,BUILT
+POS_0015,BG_01891,matched_control,True,True,,,2013-03-01 04:00:00,GLC_FCS30D,HIGH,FOREST
+POS_0015,BG_02833,matched_control,True,True,,,2013-03-01 04:00:00,GLC_FCS30D,HIGH,FOREST
+POS_0016,POS_0016,case,True,True,,,2007-08-25 00:00:00,GLC_FCS30D,HIGH,FOREST
+POS_0016,BG_01065,matched_control,True,True,,,2007-08-25 00:00:00,GLC_FCS30D,HIGH,FOREST
+POS_0016,BG_02979,matched_control,True,True,,,2007-08-25 00:00:00,GLC_FCS30D,HIGH,FOREST
+POS_0017,POS_0017,case,False,False,soil_moisture,,2012-06-02 00:00:00,GLC_FCS30D,HIGH,BUILT
+POS_0017,BG_01853,matched_control,False,False,,,2012-06-02 00:00:00,GLC_FCS30D,HIGH,FOREST
+POS_0017,BG_02619,matched_control,False,False,,,2012-06-02 00:00:00,GLC_FCS30D,HIGH,FOREST
+POS_0018,POS_0018,case,True,True,,,2012-03-07 23:00:00,GLC_FCS30D,HIGH,CROPLAND
+POS_0018,BG_01261,matched_control,True,True,,,2012-03-07 23:00:00,GLC_FCS30D,HIGH,FOREST
+POS_0018,BG_02006,matched_control,True,True,,,2012-03-07 23:00:00,GLC_FCS30D,HIGH,FOREST
+POS_0019,POS_0019,case,True,True,,,2014-10-12 14:00:00,GLC_FCS30D,HIGH,BUILT
+POS_0019,BG_00416,matched_control,True,True,,,2014-10-12 14:00:00,GLC_FCS30D,HIGH,CROPLAND
+POS_0019,BG_02746,matched_control,True,True,,,2014-10-12 14:00:00,GLC_FCS30D,HIGH,FOREST
+POS_0020,POS_0020,case,True,False,,,2014-11-27 19:00:00,GLC_FCS30D,HIGH,BUILT
+POS_0020,BG_02991,matched_control,True,False,soil_moisture,,2014-11-27 19:00:00,GLC_FCS30D,HIGH,WETLAND
+POS_0020,BG_01279,matched_control,True,False,,,2014-11-27 19:00:00,GLC_FCS30D,HIGH,FOREST
+POS_0021,POS_0021,case,False,False,strict_landcover,landcover_missing_or_unmapped; landcover_reliability_not_high,2015-01-20 19:00:00,,MISSING,
+POS_0021,BG_00068,matched_control,False,False,strict_landcover,landcover_reliability_not_high,2015-01-20 19:00:00,Dynamic_World,LOW_PARTIAL_YEAR,FOREST
+POS_0021,BG_00165,matched_control,False,False,strict_landcover,landcover_missing_or_unmapped; landcover_reliability_not_high,2015-01-20 19:00:00,,MISSING,
+POS_0022,POS_0022,case,True,False,,,2016-08-30 15:00:00,Dynamic_World,HIGH,BUILT
+POS_0022,BG_02171,matched_control,True,False,,,2016-08-30 15:00:00,Dynamic_World,HIGH,CROPLAND
+POS_0022,BG_02981,matched_control,True,False,strict_landcover,landcover_missing_or_unmapped; landcover_reliability_not_high,2016-08-30 15:00:00,,MISSING,
+POS_0023,POS_0023,case,True,False,,,2013-10-23 01:00:00,GLC_FCS30D,HIGH,FOREST
+POS_0023,BG_01305,matched_control,True,False,soil_moisture,,2013-10-23 01:00:00,GLC_FCS30D,HIGH,FOREST
+POS_0023,BG_00090,matched_control,True,False,,,2013-10-23 01:00:00,GLC_FCS30D,HIGH,BUILT
+POS_0024,POS_0024,case,True,False,,,2017-05-10 16:00:00,Dynamic_World,HIGH,BUILT
+POS_0024,BG_01667,matched_control,True,False,strict_landcover,landcover_missing_or_unmapped; landcover_reliability_not_high,2017-05-10 16:00:00,,MISSING,
+POS_0024,BG_00354,matched_control,True,False,,,2017-05-10 16:00:00,Dynamic_World,HIGH,FOREST
+POS_0026,POS_0026,case,True,True,,,2009-09-19 17:30:00,GLC_FCS30D,HIGH,BUILT
+POS_0026,BG_01817,matched_control,True,True,,,2009-09-19 17:30:00,GLC_FCS30D,HIGH,FOREST
+POS_0026,BG_00735,matched_control,True,True,,,2009-09-19 17:30:00,GLC_FCS30D,HIGH,CROPLAND
+POS_0028,POS_0028,case,True,True,,,2014-11-18 00:50:00,GLC_FCS30D,HIGH,FOREST
+POS_0028,BG_02211,matched_control,True,True,,,2014-11-18 00:50:00,GLC_FCS30D,HIGH,FOREST
+POS_0028,BG_01219,matched_control,True,True,,,2014-11-18 00:50:00,GLC_FCS30D,HIGH,FOREST
+POS_0031,POS_0031,case,False,False,soil_moisture,,2016-08-21 06:00:00,Dynamic_World,HIGH,BUILT
+POS_0031,BG_02446,matched_control,False,False,strict_landcover,landcover_missing_or_unmapped; landcover_reliability_not_high,2016-08-21 06:00:00,,MISSING,
+POS_0031,BG_02480,matched_control,False,False,,,2016-08-21 06:00:00,Dynamic_World,HIGH,FOREST
+POS_0032,POS_0032,case,True,True,,,2014-10-20 09:00:00,GLC_FCS30D,HIGH,SHRUB
+POS_0032,BG_02737,matched_control,True,True,,,2014-10-20 09:00:00,GLC_FCS30D,HIGH,FOREST
+POS_0032,BG_02562,matched_control,True,True,,,2014-10-20 09:00:00,GLC_FCS30D,HIGH,FOREST
+POS_0033,POS_0033,case,True,True,,,2014-10-01 17:50:00,GLC_FCS30D,HIGH,SHRUB
+POS_0033,BG_01897,matched_control,True,True,,,2014-10-01 17:50:00,GLC_FCS30D,HIGH,FOREST
+POS_0033,BG_00237,matched_control,True,True,,,2014-10-01 17:50:00,GLC_FCS30D,HIGH,SHRUB
+POS_0034,POS_0034,case,True,True,,,2013-11-10 00:00:00,GLC_FCS30D,HIGH,BUILT
+POS_0034,BG_02081,matched_control,True,True,,,2013-11-10 00:00:00,GLC_FCS30D,HIGH,FOREST
+POS_0034,BG_01531,matched_control,True,True,,,2013-11-10 00:00:00,GLC_FCS30D,HIGH,FOREST
+POS_0035,POS_0035,case,False,False,strict_landcover,landcover_missing_or_unmapped; landcover_reliability_not_high,2017-04-10 00:00:00,,MISSING,
+POS_0035,BG_02248,matched_control,False,False,,,2017-04-10 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0035,BG_00246,matched_control,False,False,strict_landcover,landcover_missing_or_unmapped; landcover_reliability_not_high,2017-04-10 00:00:00,,MISSING,
+POS_0036,POS_0036,case,True,True,,,2017-10-27 00:00:00,Dynamic_World,HIGH,BUILT
+POS_0036,BG_00802,matched_control,True,True,,,2017-10-27 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0036,BG_02453,matched_control,True,True,,,2017-10-27 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0037,POS_0037,case,True,True,,,2018-12-14 16:10:33,Dynamic_World,HIGH,BUILT
+POS_0037,BG_02882,matched_control,True,True,,,2018-12-14 16:10:33,Dynamic_World,HIGH,GRASS
+POS_0037,BG_01718,matched_control,True,True,,,2018-12-14 16:10:33,Dynamic_World,HIGH,FOREST
+POS_0039,POS_0039,case,True,True,,,2009-09-19 17:30:00,GLC_FCS30D,HIGH,WETLAND
+POS_0039,BG_00322,matched_control,True,True,,,2009-09-19 17:30:00,GLC_FCS30D,HIGH,FOREST
+POS_0039,BG_02523,matched_control,True,True,,,2009-09-19 17:30:00,GLC_FCS30D,HIGH,FOREST
+POS_0043,POS_0043,case,False,False,soil_moisture,,2018-05-17 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0043,BG_00882,matched_control,False,False,,,2018-05-17 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0043,BG_02250,matched_control,False,False,,,2018-05-17 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0044,POS_0044,case,True,True,,,2009-11-19 00:00:00,GLC_FCS30D,HIGH,BUILT
+POS_0044,BG_00469,matched_control,True,True,,,2009-11-19 00:00:00,GLC_FCS30D,HIGH,FOREST
+POS_0044,BG_01834,matched_control,True,True,,,2009-11-19 00:00:00,GLC_FCS30D,HIGH,FOREST
+POS_0045,POS_0045,case,True,True,,,2013-05-07 19:00:00,GLC_FCS30D,HIGH,BUILT
+POS_0045,BG_01391,matched_control,True,True,,,2013-05-07 19:00:00,GLC_FCS30D,HIGH,FOREST
+POS_0045,BG_00352,matched_control,True,True,,,2013-05-07 19:00:00,GLC_FCS30D,HIGH,SHRUB
+POS_0046,POS_0046,case,True,False,,,2017-11-10 00:00:00,Dynamic_World,HIGH,BUILT
+POS_0046,BG_02059,matched_control,True,False,,,2017-11-10 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0046,BG_01562,matched_control,True,False,strict_landcover,landcover_missing_or_unmapped; landcover_reliability_not_high,2017-11-10 00:00:00,,MISSING,
+POS_0047,POS_0047,case,True,True,,,2016-12-25 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0047,BG_01563,matched_control,True,True,,,2016-12-25 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0047,BG_00319,matched_control,True,True,,,2016-12-25 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0048,POS_0048,case,False,False,soil_moisture,,2011-01-29 02:00:00,GLC_FCS30D,HIGH,BUILT
+POS_0048,BG_01036,matched_control,False,False,,,2011-01-29 02:00:00,GLC_FCS30D,HIGH,FOREST
+POS_0048,BG_01937,matched_control,False,False,,,2011-01-29 02:00:00,GLC_FCS30D,HIGH,FOREST
+POS_0049,POS_0049,case,True,True,,,2017-01-01 04:00:00,Dynamic_World,HIGH,BUILT
+POS_0049,BG_00717,matched_control,True,True,,,2017-01-01 04:00:00,Dynamic_World,HIGH,FOREST
+POS_0049,BG_01331,matched_control,True,True,,,2017-01-01 04:00:00,Dynamic_World,HIGH,FOREST
+POS_0050,POS_0050,case,True,True,,,2013-05-09 00:00:00,GLC_FCS30D,HIGH,BUILT
+POS_0050,BG_01392,matched_control,True,True,,,2013-05-09 00:00:00,GLC_FCS30D,HIGH,FOREST
+POS_0050,BG_02181,matched_control,True,True,,,2013-05-09 00:00:00,GLC_FCS30D,HIGH,FOREST
+POS_0051,POS_0051,case,True,False,,,2011-01-29 04:00:00,GLC_FCS30D,HIGH,BUILT
+POS_0051,BG_01255,matched_control,True,False,soil_moisture,,2011-01-29 04:00:00,GLC_FCS30D,HIGH,WETLAND
+POS_0051,BG_02346,matched_control,True,False,,,2011-01-29 04:00:00,GLC_FCS30D,HIGH,FOREST
+POS_0052,POS_0052,case,False,False,strict_landcover,landcover_missing_or_unmapped; landcover_reliability_not_high,2015-11-11 00:00:00,,MISSING,
+POS_0052,BG_00862,matched_control,False,False,strict_landcover,landcover_missing_or_unmapped; landcover_reliability_not_high,2015-11-11 00:00:00,,MISSING,
+POS_0052,BG_01437,matched_control,False,False,strict_landcover,landcover_missing_or_unmapped; landcover_reliability_not_high,2015-11-11 00:00:00,,MISSING,
+POS_0053,POS_0053,case,True,False,,,2017-11-20 00:00:00,Dynamic_World,HIGH,BUILT
+POS_0053,BG_01295,matched_control,True,False,strict_landcover,landcover_missing_or_unmapped; landcover_reliability_not_high,2017-11-20 00:00:00,,MISSING,
+POS_0053,BG_01954,matched_control,True,False,,,2017-11-20 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0056,POS_0056,case,True,True,,,2014-01-22 00:00:00,GLC_FCS30D,HIGH,FOREST
+POS_0056,BG_00773,matched_control,True,True,,,2014-01-22 00:00:00,GLC_FCS30D,HIGH,SHRUB
+POS_0056,BG_00337,matched_control,True,True,,,2014-01-22 00:00:00,GLC_FCS30D,HIGH,FOREST
+POS_0057,POS_0057,case,True,False,,,2014-05-17 10:40:00,GLC_FCS30D,HIGH,BUILT
+POS_0057,BG_01669,matched_control,True,False,,,2014-05-17 10:40:00,GLC_FCS30D,HIGH,FOREST
+POS_0057,BG_01188,matched_control,True,False,soil_moisture,,2014-05-17 10:40:00,GLC_FCS30D,HIGH,SHRUB
+POS_0059,POS_0059,case,True,False,,,2016-10-29 00:00:00,Dynamic_World,HIGH,BUILT
+POS_0059,BG_00739,matched_control,True,False,strict_landcover,landcover_missing_or_unmapped; landcover_reliability_not_high,2016-10-29 00:00:00,,MISSING,
+POS_0059,BG_02369,matched_control,True,False,strict_landcover,landcover_missing_or_unmapped; landcover_reliability_not_high,2016-10-29 00:00:00,,MISSING,
+POS_0060,POS_0060,case,False,False,soil_moisture,,2013-09-11 23:40:00,GLC_FCS30D,HIGH,CROPLAND
+POS_0060,BG_01555,matched_control,False,False,,,2013-09-11 23:40:00,GLC_FCS30D,HIGH,FOREST
+POS_0060,BG_01925,matched_control,False,False,,,2013-09-11 23:40:00,GLC_FCS30D,HIGH,FOREST
+POS_0061,POS_0061,case,True,True,,,2014-01-07 17:23:00,GLC_FCS30D,HIGH,BUILT
+POS_0061,BG_02839,matched_control,True,True,,,2014-01-07 17:23:00,GLC_FCS30D,HIGH,FOREST
+POS_0061,BG_02710,matched_control,True,True,,,2014-01-07 17:23:00,GLC_FCS30D,HIGH,FOREST
+POS_0063,POS_0063,case,True,True,,,2013-05-09 00:00:00,GLC_FCS30D,HIGH,FOREST
+POS_0063,BG_02022,matched_control,True,True,,,2013-05-09 00:00:00,GLC_FCS30D,HIGH,FOREST
+POS_0063,BG_01155,matched_control,True,True,,,2013-05-09 00:00:00,GLC_FCS30D,HIGH,CROPLAND
+POS_0064,POS_0064,case,True,True,,,2016-05-29 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0064,BG_00256,matched_control,True,True,,,2016-05-29 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0064,BG_01981,matched_control,True,True,,,2016-05-29 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0066,POS_0066,case,True,True,,,2011-02-24 16:30:00,GLC_FCS30D,HIGH,BUILT
+POS_0066,BG_02777,matched_control,True,True,,,2011-02-24 16:30:00,GLC_FCS30D,HIGH,FOREST
+POS_0066,BG_00034,matched_control,True,True,,,2011-02-24 16:30:00,GLC_FCS30D,HIGH,CROPLAND
+POS_0071,POS_0071,case,True,False,,,2008-10-04 00:00:00,GLC_FCS30D,HIGH,CROPLAND
+POS_0071,BG_00985,matched_control,True,False,,,2008-10-04 00:00:00,GLC_FCS30D,HIGH,CROPLAND
+POS_0071,BG_01171,matched_control,True,False,soil_moisture,,2008-10-04 00:00:00,GLC_FCS30D,HIGH,SHRUB
+POS_0072,POS_0072,case,True,True,,,2010-05-19 04:00:00,GLC_FCS30D,HIGH,BUILT
+POS_0072,BG_01776,matched_control,True,True,,,2010-05-19 04:00:00,GLC_FCS30D,HIGH,FOREST
+POS_0072,BG_01414,matched_control,True,True,,,2010-05-19 04:00:00,GLC_FCS30D,HIGH,FOREST
+POS_0074,POS_0074,case,True,True,,,2014-09-08 17:00:00,GLC_FCS30D,HIGH,BUILT
+POS_0074,BG_02769,matched_control,True,True,,,2014-09-08 17:00:00,GLC_FCS30D,HIGH,FOREST
+POS_0074,BG_00981,matched_control,True,True,,,2014-09-08 17:00:00,GLC_FCS30D,HIGH,FOREST
+POS_0075,POS_0075,case,True,True,,,2018-09-26 17:30:00,Dynamic_World,HIGH,BUILT
+POS_0075,BG_01560,matched_control,True,True,,,2018-09-26 17:30:00,Dynamic_World,HIGH,FOREST
+POS_0075,BG_02883,matched_control,True,True,,,2018-09-26 17:30:00,Dynamic_World,HIGH,FOREST
+POS_0076,POS_0076,case,True,True,,,2014-09-26 04:00:00,GLC_FCS30D,HIGH,SHRUB
+POS_0076,BG_01412,matched_control,True,True,,,2014-09-26 04:00:00,GLC_FCS30D,HIGH,FOREST
+POS_0076,BG_00025,matched_control,True,True,,,2014-09-26 04:00:00,GLC_FCS30D,HIGH,CROPLAND
+POS_0077,POS_0077,case,True,True,,,2014-11-06 18:30:00,GLC_FCS30D,HIGH,CROPLAND
+POS_0077,BG_00870,matched_control,True,True,,,2014-11-06 18:30:00,GLC_FCS30D,HIGH,CROPLAND
+POS_0077,BG_00540,matched_control,True,True,,,2014-11-06 18:30:00,GLC_FCS30D,HIGH,CROPLAND
+POS_0080,POS_0080,case,True,True,,,2017-12-28 00:00:00,Dynamic_World,HIGH,BUILT
+POS_0080,BG_02276,matched_control,True,True,,,2017-12-28 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0080,BG_00268,matched_control,True,True,,,2017-12-28 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0082,POS_0082,case,True,True,,,2008-04-23 07:30:00,GLC_FCS30D,HIGH,WETLAND
+POS_0082,BG_01339,matched_control,True,True,,,2008-04-23 07:30:00,GLC_FCS30D,HIGH,FOREST
+POS_0082,BG_00595,matched_control,True,True,,,2008-04-23 07:30:00,GLC_FCS30D,HIGH,CROPLAND
+POS_0085,POS_0085,case,True,True,,,2014-11-24 18:30:00,GLC_FCS30D,HIGH,BUILT
+POS_0085,BG_00250,matched_control,True,True,,,2014-11-24 18:30:00,GLC_FCS30D,HIGH,FOREST
+POS_0085,BG_02269,matched_control,True,True,,,2014-11-24 18:30:00,GLC_FCS30D,HIGH,FOREST
+POS_0086,POS_0086,case,True,True,,,2008-12-04 00:00:00,GLC_FCS30D,HIGH,FOREST
+POS_0086,BG_02133,matched_control,True,True,,,2008-12-04 00:00:00,GLC_FCS30D,HIGH,FOREST
+POS_0086,BG_02352,matched_control,True,True,,,2008-12-04 00:00:00,GLC_FCS30D,HIGH,FOREST
+POS_0087,POS_0087,case,True,True,,,2018-10-14 23:11:31,Dynamic_World,HIGH,BUILT
+POS_0087,BG_01677,matched_control,True,True,,,2018-10-14 23:11:31,Dynamic_World,HIGH,FOREST
+POS_0087,BG_01453,matched_control,True,True,,,2018-10-14 23:11:31,Dynamic_World,HIGH,FOREST
+POS_0088,POS_0088,case,False,False,strict_landcover,landcover_missing_or_unmapped; landcover_reliability_not_high,2015-06-15 15:15:00,,MISSING,
+POS_0088,BG_00437,matched_control,False,False,strict_landcover,landcover_missing_or_unmapped; landcover_reliability_not_high,2015-06-15 15:15:00,,MISSING,
+POS_0088,BG_02986,matched_control,False,False,strict_landcover,landcover_missing_or_unmapped; landcover_reliability_not_high,2015-06-15 15:15:00,,MISSING,
+POS_0089,POS_0089,case,False,False,strict_landcover,landcover_missing_or_unmapped; landcover_reliability_not_high,2015-09-24 09:00:00,,MISSING,
+POS_0089,BG_00101,matched_control,False,False,strict_landcover,landcover_reliability_not_high,2015-09-24 09:00:00,Dynamic_World,LOW_PARTIAL_YEAR,FOREST
+POS_0089,BG_01256,matched_control,False,False,strict_landcover,landcover_missing_or_unmapped; landcover_reliability_not_high,2015-09-24 09:00:00,,MISSING,
+POS_0090,POS_0090,case,True,True,,,2013-11-18 04:00:00,GLC_FCS30D,HIGH,BUILT
+POS_0090,BG_00442,matched_control,True,True,,,2013-11-18 04:00:00,GLC_FCS30D,HIGH,FOREST
+POS_0090,BG_01144,matched_control,True,True,,,2013-11-18 04:00:00,GLC_FCS30D,HIGH,SHRUB
+POS_0091,POS_0091,case,False,False,strict_landcover,landcover_missing_or_unmapped; landcover_reliability_not_high,2015-06-17 09:00:00,,MISSING,
+POS_0091,BG_02658,matched_control,False,False,strict_landcover,landcover_missing_or_unmapped; landcover_reliability_not_high,2015-06-17 09:00:00,,MISSING,
+POS_0091,BG_02189,matched_control,False,False,strict_landcover,landcover_reliability_not_high,2015-06-17 09:00:00,Dynamic_World,LOW_PARTIAL_YEAR,FOREST
+POS_0092,POS_0092,case,True,True,,,2012-11-10 20:30:00,GLC_FCS30D,HIGH,BUILT
+POS_0092,BG_00671,matched_control,True,True,,,2012-11-10 20:30:00,GLC_FCS30D,HIGH,FOREST
+POS_0092,BG_00832,matched_control,True,True,,,2012-11-10 20:30:00,GLC_FCS30D,HIGH,CROPLAND
+POS_0094,POS_0094,case,True,False,,,2013-11-10 18:35:00,GLC_FCS30D,HIGH,SHRUB
+POS_0094,BG_01698,matched_control,True,False,,,2013-11-10 18:35:00,GLC_FCS30D,HIGH,FOREST
+POS_0094,BG_01125,matched_control,True,False,soil_moisture,,2013-11-10 18:35:00,GLC_FCS30D,HIGH,SHRUB
+POS_0099,POS_0099,case,True,True,,,2014-10-27 09:00:00,GLC_FCS30D,HIGH,FOREST
+POS_0099,BG_01773,matched_control,True,True,,,2014-10-27 09:00:00,GLC_FCS30D,HIGH,FOREST
+POS_0099,BG_00484,matched_control,True,True,,,2014-10-27 09:00:00,GLC_FCS30D,HIGH,FOREST
+POS_0100,POS_0100,case,True,True,,,2017-03-19 16:00:00,Dynamic_World,HIGH,BUILT
+POS_0100,BG_01407,matched_control,True,True,,,2017-03-19 16:00:00,Dynamic_World,HIGH,FOREST
+POS_0100,BG_02174,matched_control,True,True,,,2017-03-19 16:00:00,Dynamic_World,HIGH,FOREST
+POS_0101,POS_0101,case,False,False,strict_landcover,landcover_missing_or_unmapped; landcover_reliability_not_high,2015-02-02 00:00:00,,MISSING,
+POS_0101,BG_01195,matched_control,False,False,strict_landcover,landcover_missing_or_unmapped; landcover_reliability_not_high,2015-02-02 00:00:00,,MISSING,
+POS_0101,BG_02905,matched_control,False,False,strict_landcover,landcover_missing_or_unmapped; landcover_reliability_not_high,2015-02-02 00:00:00,,MISSING,
+POS_0102,POS_0102,case,False,False,strict_landcover,landcover_missing_or_unmapped; landcover_reliability_not_high,2015-04-10 00:00:00,,MISSING,
+POS_0102,BG_00947,matched_control,False,False,strict_landcover,landcover_missing_or_unmapped; landcover_reliability_not_high,2015-04-10 00:00:00,,MISSING,
+POS_0102,BG_00577,matched_control,False,False,strict_landcover,landcover_reliability_not_high,2015-04-10 00:00:00,Dynamic_World,LOW_PARTIAL_YEAR,FOREST
+POS_0103,POS_0103,case,True,True,,,2009-11-03 00:00:00,GLC_FCS30D,HIGH,CROPLAND
+POS_0103,BG_02301,matched_control,True,True,,,2009-11-03 00:00:00,GLC_FCS30D,HIGH,FOREST
+POS_0103,BG_00323,matched_control,True,True,,,2009-11-03 00:00:00,GLC_FCS30D,HIGH,FOREST
+POS_0104,POS_0104,case,True,True,,,2011-01-01 00:00:00,GLC_FCS30D,HIGH,FOREST
+POS_0104,BG_00122,matched_control,True,True,,,2011-01-01 00:00:00,GLC_FCS30D,HIGH,FOREST
+POS_0104,BG_01526,matched_control,True,True,,,2011-01-01 00:00:00,GLC_FCS30D,HIGH,FOREST
+POS_0107,POS_0107,case,False,False,strict_landcover,landcover_missing_or_unmapped; landcover_reliability_not_high,2015-06-29 00:30:00,,MISSING,
+POS_0107,BG_02417,matched_control,False,False,strict_landcover,landcover_missing_or_unmapped; landcover_reliability_not_high,2015-06-29 00:30:00,,MISSING,
+POS_0107,BG_01837,matched_control,False,False,strict_landcover,landcover_missing_or_unmapped; landcover_reliability_not_high,2015-06-29 00:30:00,,MISSING,
+POS_0108,POS_0108,case,True,True,,,2017-11-18 00:00:00,Dynamic_World,HIGH,BUILT
+POS_0108,BG_02149,matched_control,True,True,,,2017-11-18 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0108,BG_02242,matched_control,True,True,,,2017-11-18 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0109,POS_0109,case,True,True,,,2016-11-20 15:00:00,Dynamic_World,HIGH,FOREST
+POS_0109,BG_00889,matched_control,True,True,,,2016-11-20 15:00:00,Dynamic_World,HIGH,FOREST
+POS_0109,BG_01387,matched_control,True,True,,,2016-11-20 15:00:00,Dynamic_World,HIGH,FOREST
+POS_0116,POS_0116,case,True,True,,,2010-05-31 21:00:00,GLC_FCS30D,HIGH,FOREST
+POS_0116,BG_01302,matched_control,True,True,,,2010-05-31 21:00:00,GLC_FCS30D,HIGH,FOREST
+POS_0116,BG_00071,matched_control,True,True,,,2010-05-31 21:00:00,GLC_FCS30D,HIGH,FOREST
+POS_0117,POS_0117,case,True,True,,,2014-12-30 04:30:00,GLC_FCS30D,HIGH,FOREST
+POS_0117,BG_01329,matched_control,True,True,,,2014-12-30 04:30:00,GLC_FCS30D,HIGH,FOREST
+POS_0117,BG_00244,matched_control,True,True,,,2014-12-30 04:30:00,GLC_FCS30D,HIGH,CROPLAND
+POS_0120,POS_0120,case,True,True,,,2012-04-18 04:08:00,GLC_FCS30D,HIGH,BUILT
+POS_0120,BG_01071,matched_control,True,True,,,2012-04-18 04:08:00,GLC_FCS30D,HIGH,FOREST
+POS_0120,BG_00506,matched_control,True,True,,,2012-04-18 04:08:00,GLC_FCS30D,HIGH,FOREST
+POS_0121,POS_0121,case,True,True,,,2014-10-09 06:00:00,GLC_FCS30D,HIGH,BUILT
+POS_0121,BG_00543,matched_control,True,True,,,2014-10-09 06:00:00,GLC_FCS30D,HIGH,FOREST
+POS_0121,BG_00384,matched_control,True,True,,,2014-10-09 06:00:00,GLC_FCS30D,HIGH,FOREST
+POS_0122,POS_0122,case,True,False,,,2016-12-25 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0122,BG_01656,matched_control,True,False,,,2016-12-25 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0122,BG_02280,matched_control,True,False,strict_landcover,landcover_missing_or_unmapped; landcover_reliability_not_high,2016-12-25 00:00:00,,MISSING,
+POS_0124,POS_0124,case,True,True,,,2009-11-07 17:00:00,GLC_FCS30D,HIGH,BUILT
+POS_0124,BG_01748,matched_control,True,True,,,2009-11-07 17:00:00,GLC_FCS30D,HIGH,FOREST
+POS_0124,BG_01958,matched_control,True,True,,,2009-11-07 17:00:00,GLC_FCS30D,HIGH,FOREST
+POS_0126,POS_0126,case,True,False,,,2016-10-18 06:45:00,Dynamic_World,HIGH,FOREST
+POS_0126,BG_00454,matched_control,True,False,strict_landcover,landcover_missing_or_unmapped; landcover_reliability_not_high,2016-10-18 06:45:00,,MISSING,
+POS_0126,BG_00946,matched_control,True,False,,,2016-10-18 06:45:00,Dynamic_World,HIGH,FOREST
+POS_0128,POS_0128,case,False,False,strict_landcover,landcover_missing_or_unmapped; landcover_reliability_not_high,2017-10-29 16:00:00,,MISSING,
+POS_0128,BG_02273,matched_control,False,False,,,2017-10-29 16:00:00,Dynamic_World,HIGH,FOREST
+POS_0128,BG_00124,matched_control,False,False,,,2017-10-29 16:00:00,Dynamic_World,HIGH,FOREST
+POS_0131,POS_0131,case,True,False,,,2017-07-10 00:00:00,Dynamic_World,HIGH,BUILT
+POS_0131,BG_00968,matched_control,True,False,,,2017-07-10 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0131,BG_01959,matched_control,True,False,strict_landcover,landcover_missing_or_unmapped; landcover_reliability_not_high,2017-07-10 00:00:00,,MISSING,
+POS_0132,POS_0132,case,True,True,,,2016-10-29 00:00:00,Dynamic_World,HIGH,GRASS
+POS_0132,BG_01593,matched_control,True,True,,,2016-10-29 00:00:00,Dynamic_World,HIGH,CROPLAND
+POS_0132,BG_00441,matched_control,True,True,,,2016-10-29 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0135,POS_0135,case,True,False,,,2018-11-27 22:27:56,Dynamic_World,HIGH,BUILT
+POS_0135,BG_00865,matched_control,True,False,,,2018-11-27 22:27:56,Dynamic_World,HIGH,FOREST
+POS_0135,BG_01430,matched_control,True,False,soil_moisture,,2018-11-27 22:27:56,Dynamic_World,HIGH,FOREST
+POS_0136,POS_0136,case,False,False,soil_moisture,,2013-11-06 03:00:00,GLC_FCS30D,HIGH,CROPLAND
+POS_0136,BG_02699,matched_control,False,False,,,2013-11-06 03:00:00,GLC_FCS30D,HIGH,FOREST
+POS_0136,BG_02212,matched_control,False,False,,,2013-11-06 03:00:00,GLC_FCS30D,HIGH,FOREST
+POS_0138,POS_0138,case,False,False,strict_landcover,landcover_reliability_not_high,2015-12-19 00:00:00,Dynamic_World,LOW_PARTIAL_YEAR,BUILT
+POS_0138,BG_02359,matched_control,False,False,strict_landcover,landcover_missing_or_unmapped; landcover_reliability_not_high,2015-12-19 00:00:00,,MISSING,
+POS_0138,BG_02233,matched_control,False,False,strict_landcover,landcover_missing_or_unmapped; landcover_reliability_not_high,2015-12-19 00:00:00,,MISSING,
+POS_0139,POS_0139,case,False,False,soil_moisture,,2013-12-05 00:00:00,GLC_FCS30D,HIGH,CROPLAND
+POS_0139,BG_00342,matched_control,False,False,,,2013-12-05 00:00:00,GLC_FCS30D,HIGH,FOREST
+POS_0139,BG_02179,matched_control,False,False,,,2013-12-05 00:00:00,GLC_FCS30D,HIGH,FOREST
+POS_0144,POS_0144,case,True,True,,,2009-12-02 00:00:00,GLC_FCS30D,HIGH,FOREST
+POS_0144,BG_01053,matched_control,True,True,,,2009-12-02 00:00:00,GLC_FCS30D,HIGH,FOREST
+POS_0144,BG_01904,matched_control,True,True,,,2009-12-02 00:00:00,GLC_FCS30D,HIGH,FOREST
+POS_0146,POS_0146,case,True,True,,,2013-09-08 16:00:00,GLC_FCS30D,HIGH,FOREST
+POS_0146,BG_00998,matched_control,True,True,,,2013-09-08 16:00:00,GLC_FCS30D,HIGH,SHRUB
+POS_0146,BG_00779,matched_control,True,True,,,2013-09-08 16:00:00,GLC_FCS30D,HIGH,FOREST
+POS_0149,POS_0149,case,True,True,,,2017-01-23 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0149,BG_00251,matched_control,True,True,,,2017-01-23 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0149,BG_00520,matched_control,True,True,,,2017-01-23 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0151,POS_0151,case,True,True,,,2014-01-22 00:00:00,GLC_FCS30D,HIGH,FOREST
+POS_0151,BG_00613,matched_control,True,True,,,2014-01-22 00:00:00,GLC_FCS30D,HIGH,FOREST
+POS_0151,BG_00302,matched_control,True,True,,,2014-01-22 00:00:00,GLC_FCS30D,HIGH,FOREST
+POS_0152,POS_0152,case,False,False,soil_moisture,,2017-11-13 07:00:00,Dynamic_World,HIGH,BUILT
+POS_0152,BG_02128,matched_control,False,False,,,2017-11-13 07:00:00,Dynamic_World,HIGH,FOREST
+POS_0152,BG_01212,matched_control,False,False,,,2017-11-13 07:00:00,Dynamic_World,HIGH,BUILT
+POS_0154,POS_0154,case,True,True,,,2011-05-21 14:30:00,GLC_FCS30D,HIGH,CROPLAND
+POS_0154,BG_02379,matched_control,True,True,,,2011-05-21 14:30:00,GLC_FCS30D,HIGH,FOREST
+POS_0154,BG_00945,matched_control,True,True,,,2011-05-21 14:30:00,GLC_FCS30D,HIGH,CROPLAND
+POS_0155,POS_0155,case,False,False,strict_landcover,landcover_missing_or_unmapped; landcover_reliability_not_high,2015-08-13 19:00:00,,MISSING,
+POS_0155,BG_01850,matched_control,False,False,strict_landcover,landcover_missing_or_unmapped; landcover_reliability_not_high,2015-08-13 19:00:00,,MISSING,
+POS_0155,BG_02847,matched_control,False,False,strict_landcover,landcover_missing_or_unmapped; landcover_reliability_not_high,2015-08-13 19:00:00,,MISSING,
+POS_0156,POS_0156,case,True,False,,,2017-06-30 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0156,BG_00173,matched_control,True,False,strict_landcover,control_over_water,2017-06-30 00:00:00,Dynamic_World,HIGH,WATER
+POS_0156,BG_00783,matched_control,True,False,,,2017-06-30 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0158,POS_0158,case,True,True,,,2016-11-27 00:00:00,Dynamic_World,HIGH,BUILT
+POS_0158,BG_00115,matched_control,True,True,,,2016-11-27 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0158,BG_02145,matched_control,True,True,,,2016-11-27 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0159,POS_0159,case,True,False,,,2014-01-22 00:00:00,GLC_FCS30D,HIGH,FOREST
+POS_0159,BG_02920,matched_control,True,False,soil_moisture,,2014-01-22 00:00:00,GLC_FCS30D,HIGH,FOREST
+POS_0159,BG_00356,matched_control,True,False,,,2014-01-22 00:00:00,GLC_FCS30D,HIGH,SHRUB
+POS_0160,POS_0160,case,True,True,,,2018-10-25 00:06:41,Dynamic_World,HIGH,FOREST
+POS_0160,BG_01950,matched_control,True,True,,,2018-10-25 00:06:41,Dynamic_World,HIGH,FOREST
+POS_0160,BG_00648,matched_control,True,True,,,2018-10-25 00:06:41,Dynamic_World,HIGH,FOREST
+POS_0162,POS_0162,case,True,True,,,2008-12-06 00:00:00,GLC_FCS30D,HIGH,SHRUB
+POS_0162,BG_00546,matched_control,True,True,,,2008-12-06 00:00:00,GLC_FCS30D,HIGH,CROPLAND
+POS_0162,BG_00276,matched_control,True,True,,,2008-12-06 00:00:00,GLC_FCS30D,HIGH,FOREST
+POS_0166,POS_0166,case,True,True,,,2017-05-29 02:00:00,Dynamic_World,HIGH,BUILT
+POS_0166,BG_01105,matched_control,True,True,,,2017-05-29 02:00:00,Dynamic_World,HIGH,FOREST
+POS_0166,BG_00930,matched_control,True,True,,,2017-05-29 02:00:00,Dynamic_World,HIGH,FOREST
+POS_0168,POS_0168,case,True,True,,,2007-12-26 00:00:00,GLC_FCS30D,HIGH,FOREST
+POS_0168,BG_02535,matched_control,True,True,,,2007-12-26 00:00:00,GLC_FCS30D,HIGH,FOREST
+POS_0168,BG_02266,matched_control,True,True,,,2007-12-26 00:00:00,GLC_FCS30D,HIGH,FOREST
+POS_0171,POS_0171,case,False,False,strict_landcover,landcover_missing_or_unmapped; landcover_reliability_not_high,2017-05-25 00:00:00,,MISSING,
+POS_0171,BG_01899,matched_control,False,False,strict_landcover,landcover_missing_or_unmapped; landcover_reliability_not_high,2017-05-25 00:00:00,,MISSING,
+POS_0171,BG_02655,matched_control,False,False,,,2017-05-25 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0172,POS_0172,case,True,True,,,2012-11-03 00:00:00,GLC_FCS30D,HIGH,BUILT
+POS_0172,BG_01301,matched_control,True,True,,,2012-11-03 00:00:00,GLC_FCS30D,HIGH,FOREST
+POS_0172,BG_01713,matched_control,True,True,,,2012-11-03 00:00:00,GLC_FCS30D,HIGH,FOREST
+POS_0173,POS_0173,case,True,True,,,2011-10-24 22:30:00,GLC_FCS30D,HIGH,BUILT
+POS_0173,BG_00924,matched_control,True,True,,,2011-10-24 22:30:00,GLC_FCS30D,HIGH,FOREST
+POS_0173,BG_02009,matched_control,True,True,,,2011-10-24 22:30:00,GLC_FCS30D,HIGH,FOREST
+POS_0178,POS_0178,case,True,True,,,2013-05-09 00:00:00,GLC_FCS30D,HIGH,BUILT
+POS_0178,BG_02057,matched_control,True,True,,,2013-05-09 00:00:00,GLC_FCS30D,HIGH,CROPLAND
+POS_0178,BG_01597,matched_control,True,True,,,2013-05-09 00:00:00,GLC_FCS30D,HIGH,FOREST
+POS_0180,POS_0180,case,True,True,,,2012-11-12 15:50:00,GLC_FCS30D,HIGH,BUILT
+POS_0180,BG_01987,matched_control,True,True,,,2012-11-12 15:50:00,GLC_FCS30D,HIGH,FOREST
+POS_0180,BG_00815,matched_control,True,True,,,2012-11-12 15:50:00,GLC_FCS30D,HIGH,SHRUB
+POS_0181,POS_0181,case,True,True,,,2011-05-21 00:00:00,GLC_FCS30D,HIGH,BUILT
+POS_0181,BG_00193,matched_control,True,True,,,2011-05-21 00:00:00,GLC_FCS30D,HIGH,BUILT
+POS_0181,BG_00387,matched_control,True,True,,,2011-05-21 00:00:00,GLC_FCS30D,HIGH,FOREST
+POS_0182,POS_0182,case,True,True,,,2022-03-09 00:00:00,Dynamic_World,HIGH,BUILT
+POS_0182,BG_02870,matched_control,True,True,,,2022-03-09 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0182,BG_00938,matched_control,True,True,,,2022-03-09 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0185,POS_0185,case,False,False,soil_moisture,,2017-11-05 03:00:00,Dynamic_World,HIGH,BUILT
+POS_0185,BG_01480,matched_control,False,False,,,2017-11-05 03:00:00,Dynamic_World,HIGH,FOREST
+POS_0185,BG_01586,matched_control,False,False,,,2017-11-05 03:00:00,Dynamic_World,HIGH,FOREST
+POS_0187,POS_0187,case,False,False,strict_landcover,landcover_missing_or_unmapped; landcover_reliability_not_high,2015-07-31 09:30:00,,MISSING,
+POS_0187,BG_00853,matched_control,False,False,strict_landcover,landcover_missing_or_unmapped; landcover_reliability_not_high,2015-07-31 09:30:00,,MISSING,
+POS_0187,BG_01417,matched_control,False,False,strict_landcover,landcover_missing_or_unmapped; landcover_reliability_not_high,2015-07-31 09:30:00,,MISSING,
+POS_0188,POS_0188,case,True,True,,,2014-12-27 09:00:00,GLC_FCS30D,HIGH,BUILT
+POS_0188,BG_02197,matched_control,True,True,,,2014-12-27 09:00:00,GLC_FCS30D,HIGH,FOREST
+POS_0188,BG_00838,matched_control,True,True,,,2014-12-27 09:00:00,GLC_FCS30D,HIGH,FOREST
+POS_0191,POS_0191,case,False,False,soil_moisture,,2016-11-07 08:00:00,Dynamic_World,HIGH,BUILT
+POS_0191,BG_02204,matched_control,False,False,strict_landcover,landcover_missing_or_unmapped; landcover_reliability_not_high,2016-11-07 08:00:00,,MISSING,
+POS_0191,BG_00745,matched_control,False,False,,,2016-11-07 08:00:00,Dynamic_World,HIGH,FOREST
+POS_0192,POS_0192,case,True,True,,,2016-12-25 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0192,BG_00248,matched_control,True,True,,,2016-12-25 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0192,BG_02235,matched_control,True,True,,,2016-12-25 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0194,POS_0194,case,True,True,,,2010-06-08 00:00:00,GLC_FCS30D,HIGH,FOREST
+POS_0194,BG_00511,matched_control,True,True,,,2010-06-08 00:00:00,GLC_FCS30D,HIGH,FOREST
+POS_0194,BG_00355,matched_control,True,True,,,2010-06-08 00:00:00,GLC_FCS30D,HIGH,FOREST
+POS_0195,POS_0195,case,True,False,,,2012-11-15 18:00:00,GLC_FCS30D,HIGH,BUILT
+POS_0195,BG_01712,matched_control,True,False,,,2012-11-15 18:00:00,GLC_FCS30D,HIGH,FOREST
+POS_0195,BG_02919,matched_control,True,False,soil_moisture,,2012-11-15 18:00:00,GLC_FCS30D,HIGH,FOREST
+POS_0196,POS_0196,case,True,True,,,2010-06-09 14:00:00,GLC_FCS30D,HIGH,FOREST
+POS_0196,BG_02353,matched_control,True,True,,,2010-06-09 14:00:00,GLC_FCS30D,HIGH,FOREST
+POS_0196,BG_01706,matched_control,True,True,,,2010-06-09 14:00:00,GLC_FCS30D,HIGH,FOREST
+POS_0197,POS_0197,case,False,False,soil_moisture,,2011-08-07 17:45:00,GLC_FCS30D,HIGH,BUILT
+POS_0197,BG_02709,matched_control,False,False,,,2011-08-07 17:45:00,GLC_FCS30D,HIGH,FOREST
+POS_0197,BG_02917,matched_control,False,False,soil_moisture,,2011-08-07 17:45:00,GLC_FCS30D,HIGH,FOREST
+POS_0198,POS_0198,case,True,True,,,2011-02-27 06:00:00,GLC_FCS30D,HIGH,BUILT
+POS_0198,BG_02072,matched_control,True,True,,,2011-02-27 06:00:00,GLC_FCS30D,HIGH,FOREST
+POS_0198,BG_02820,matched_control,True,True,,,2011-02-27 06:00:00,GLC_FCS30D,HIGH,FOREST
+POS_0199,POS_0199,case,True,True,,,2018-10-19 04:00:00,Dynamic_World,HIGH,FOREST
+POS_0199,BG_02140,matched_control,True,True,,,2018-10-19 04:00:00,Dynamic_World,HIGH,FOREST
+POS_0199,BG_01370,matched_control,True,True,,,2018-10-19 04:00:00,Dynamic_World,HIGH,FOREST
+POS_0201,POS_0201,case,True,True,,,2016-12-25 20:00:00,Dynamic_World,HIGH,BUILT
+POS_0201,BG_02666,matched_control,True,True,,,2016-12-25 20:00:00,Dynamic_World,HIGH,FOREST
+POS_0201,BG_00471,matched_control,True,True,,,2016-12-25 20:00:00,Dynamic_World,HIGH,FOREST
+POS_0206,POS_0206,case,True,False,,,2017-09-15 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0206,BG_01404,matched_control,True,False,strict_landcover,landcover_missing_or_unmapped; landcover_reliability_not_high,2017-09-15 00:00:00,,MISSING,
+POS_0206,BG_00950,matched_control,True,False,,,2017-09-15 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0207,POS_0207,case,True,True,,,2016-12-27 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0207,BG_01993,matched_control,True,True,,,2016-12-27 00:00:00,Dynamic_World,HIGH,BUILT
+POS_0207,BG_01622,matched_control,True,True,,,2016-12-27 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0209,POS_0209,case,True,False,,,2017-01-31 20:00:00,Dynamic_World,HIGH,BUILT
+POS_0209,BG_01999,matched_control,True,False,strict_landcover,landcover_missing_or_unmapped; landcover_reliability_not_high,2017-01-31 20:00:00,,MISSING,
+POS_0209,BG_01596,matched_control,True,False,,,2017-01-31 20:00:00,Dynamic_World,HIGH,FOREST
+POS_0210,POS_0210,case,True,True,,,2014-10-23 00:00:00,GLC_FCS30D,HIGH,BUILT
+POS_0210,BG_02976,matched_control,True,True,,,2014-10-23 00:00:00,GLC_FCS30D,HIGH,FOREST
+POS_0210,BG_01272,matched_control,True,True,,,2014-10-23 00:00:00,GLC_FCS30D,HIGH,FOREST
+POS_0212,POS_0212,case,True,False,,,2017-01-24 03:00:00,Dynamic_World,HIGH,FOREST
+POS_0212,BG_02836,matched_control,True,False,,,2017-01-24 03:00:00,Dynamic_World,HIGH,FOREST
+POS_0212,BG_01808,matched_control,True,False,strict_landcover,landcover_missing_or_unmapped; landcover_reliability_not_high,2017-01-24 03:00:00,,MISSING,
+POS_0213,POS_0213,case,True,True,,,2016-11-19 03:00:00,Dynamic_World,HIGH,BUILT
+POS_0213,BG_00894,matched_control,True,True,,,2016-11-19 03:00:00,Dynamic_World,HIGH,FOREST
+POS_0213,BG_01180,matched_control,True,True,,,2016-11-19 03:00:00,Dynamic_World,HIGH,FOREST
+POS_0214,POS_0214,case,False,False,soil_moisture,,2012-06-02 00:00:00,GLC_FCS30D,HIGH,BUILT
+POS_0214,BG_01927,matched_control,False,False,,,2012-06-02 00:00:00,GLC_FCS30D,HIGH,FOREST
+POS_0214,BG_01801,matched_control,False,False,,,2012-06-02 00:00:00,GLC_FCS30D,HIGH,FOREST
+POS_0215,POS_0215,case,True,True,,,2014-06-04 00:00:00,GLC_FCS30D,HIGH,FOREST
+POS_0215,BG_02975,matched_control,True,True,,,2014-06-04 00:00:00,GLC_FCS30D,HIGH,FOREST
+POS_0215,BG_01363,matched_control,True,True,,,2014-06-04 00:00:00,GLC_FCS30D,HIGH,FOREST
+POS_0217,POS_0217,case,True,True,,,2011-01-06 09:00:00,GLC_FCS30D,HIGH,FOREST
+POS_0217,BG_01818,matched_control,True,True,,,2011-01-06 09:00:00,GLC_FCS30D,HIGH,FOREST
+POS_0217,BG_01291,matched_control,True,True,,,2011-01-06 09:00:00,GLC_FCS30D,HIGH,FOREST
+POS_0218,POS_0218,case,True,False,,,2016-07-01 18:45:58,Dynamic_World,HIGH,BUILT
+POS_0218,BG_02391,matched_control,True,False,,,2016-07-01 18:45:58,Dynamic_World,HIGH,FOREST
+POS_0218,BG_00959,matched_control,True,False,strict_landcover,control_over_water,2016-07-01 18:45:58,Dynamic_World,HIGH,WATER
+POS_0219,POS_0219,case,True,True,,,2013-01-16 12:45:00,GLC_FCS30D,HIGH,CROPLAND
+POS_0219,BG_01292,matched_control,True,True,,,2013-01-16 12:45:00,GLC_FCS30D,HIGH,FOREST
+POS_0219,BG_02258,matched_control,True,True,,,2013-01-16 12:45:00,GLC_FCS30D,HIGH,FOREST
+POS_0220,POS_0220,case,True,True,,,2014-01-22 00:00:00,GLC_FCS30D,HIGH,CROPLAND
+POS_0220,BG_01852,matched_control,True,True,,,2014-01-22 00:00:00,GLC_FCS30D,HIGH,FOREST
+POS_0220,BG_00752,matched_control,True,True,,,2014-01-22 00:00:00,GLC_FCS30D,HIGH,CROPLAND
+POS_0221,POS_0221,case,True,True,,,2011-02-07 00:00:00,GLC_FCS30D,HIGH,FOREST
+POS_0221,BG_00765,matched_control,True,True,,,2011-02-07 00:00:00,GLC_FCS30D,HIGH,FOREST
+POS_0221,BG_01187,matched_control,True,True,,,2011-02-07 00:00:00,GLC_FCS30D,HIGH,SHRUB
+POS_0222,POS_0222,case,True,True,,,2009-11-03 00:00:00,GLC_FCS30D,HIGH,BUILT
+POS_0222,BG_02591,matched_control,True,True,,,2009-11-03 00:00:00,GLC_FCS30D,HIGH,FOREST
+POS_0222,BG_01559,matched_control,True,True,,,2009-11-03 00:00:00,GLC_FCS30D,HIGH,FOREST
+POS_0224,POS_0224,case,True,True,,,2014-12-30 17:30:00,GLC_FCS30D,HIGH,SHRUB
+POS_0224,BG_00668,matched_control,True,True,,,2014-12-30 17:30:00,GLC_FCS30D,HIGH,FOREST
+POS_0224,BG_00210,matched_control,True,True,,,2014-12-30 17:30:00,GLC_FCS30D,HIGH,SHRUB
+POS_0225,POS_0225,case,True,True,,,2017-04-22 02:00:00,Dynamic_World,HIGH,FOREST
+POS_0225,BG_01566,matched_control,True,True,,,2017-04-22 02:00:00,Dynamic_World,HIGH,FOREST
+POS_0225,BG_02686,matched_control,True,True,,,2017-04-22 02:00:00,Dynamic_World,HIGH,FOREST
+POS_0226,POS_0226,case,False,False,soil_moisture,,2017-10-21 08:00:00,Dynamic_World,HIGH,BUILT
+POS_0226,BG_01200,matched_control,False,False,soil_moisture,,2017-10-21 08:00:00,Dynamic_World,HIGH,FOREST
+POS_0226,BG_01400,matched_control,False,False,strict_landcover,landcover_missing_or_unmapped; landcover_reliability_not_high,2017-10-21 08:00:00,,MISSING,
+POS_0227,POS_0227,case,False,False,strict_landcover,landcover_reliability_not_high,2015-12-04 18:35:00,Dynamic_World,LOW_PARTIAL_YEAR,BUILT
+POS_0227,BG_02943,matched_control,False,False,strict_landcover,landcover_missing_or_unmapped; landcover_reliability_not_high,2015-12-04 18:35:00,,MISSING,
+POS_0227,BG_01244,matched_control,False,False,strict_landcover,landcover_missing_or_unmapped; landcover_reliability_not_high,2015-12-04 18:35:00,,MISSING,
+POS_0230,POS_0230,case,False,False,strict_landcover,landcover_missing_or_unmapped; landcover_reliability_not_high,2015-09-23 00:00:00,,MISSING,
+POS_0230,BG_00414,matched_control,False,False,strict_landcover,landcover_missing_or_unmapped; landcover_reliability_not_high,2015-09-23 00:00:00,,MISSING,
+POS_0230,BG_02519,matched_control,False,False,strict_landcover,landcover_missing_or_unmapped; landcover_reliability_not_high,2015-09-23 00:00:00,,MISSING,
+POS_0232,POS_0232,case,True,True,,,2011-04-10 03:00:00,GLC_FCS30D,HIGH,FOREST
+POS_0232,BG_00254,matched_control,True,True,,,2011-04-10 03:00:00,GLC_FCS30D,HIGH,SHRUB
+POS_0232,BG_02776,matched_control,True,True,,,2011-04-10 03:00:00,GLC_FCS30D,HIGH,FOREST
+POS_0234,POS_0234,case,True,True,,,2014-12-31 18:00:00,GLC_FCS30D,HIGH,CROPLAND
+POS_0234,BG_00505,matched_control,True,True,,,2014-12-31 18:00:00,GLC_FCS30D,HIGH,FOREST
+POS_0234,BG_02034,matched_control,True,True,,,2014-12-31 18:00:00,GLC_FCS30D,HIGH,FOREST
+POS_0236,POS_0236,case,True,True,,,2021-12-18 00:00:00,Dynamic_World,HIGH,BUILT
+POS_0236,BG_02697,matched_control,True,True,,,2021-12-18 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0236,BG_00974,matched_control,True,True,,,2021-12-18 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0237,POS_0237,case,True,True,,,2021-12-18 00:00:00,Dynamic_World,HIGH,BUILT
+POS_0237,BG_02156,matched_control,True,True,,,2021-12-18 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0237,BG_01813,matched_control,True,True,,,2021-12-18 00:00:00,Dynamic_World,HIGH,OTHER
+POS_0238,POS_0238,case,True,True,,,2021-12-19 00:00:00,Dynamic_World,HIGH,GRASS
+POS_0238,BG_01423,matched_control,True,True,,,2021-12-19 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0238,BG_00288,matched_control,True,True,,,2021-12-19 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0239,POS_0239,case,True,True,,,2021-12-18 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0239,BG_01800,matched_control,True,True,,,2021-12-18 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0239,BG_00367,matched_control,True,True,,,2021-12-18 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0240,POS_0240,case,True,False,,,2021-12-18 00:00:00,Dynamic_World,HIGH,BUILT
+POS_0240,BG_00827,matched_control,True,False,strict_landcover,landcover_missing_or_unmapped; landcover_reliability_not_high,2021-12-18 00:00:00,,MISSING,
+POS_0240,BG_02093,matched_control,True,False,,,2021-12-18 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0241,POS_0241,case,True,True,,,2021-12-18 00:00:00,Dynamic_World,HIGH,BUILT
+POS_0241,BG_00604,matched_control,True,True,,,2021-12-18 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0241,BG_00517,matched_control,True,True,,,2021-12-18 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0242,POS_0242,case,True,True,,,2021-12-18 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0242,BG_00847,matched_control,True,True,,,2021-12-18 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0242,BG_00184,matched_control,True,True,,,2021-12-18 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0243,POS_0243,case,True,True,,,2021-12-18 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0243,BG_00468,matched_control,True,True,,,2021-12-18 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0243,BG_02623,matched_control,True,True,,,2021-12-18 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0244,POS_0244,case,True,True,,,2021-12-18 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0244,BG_01835,matched_control,True,True,,,2021-12-18 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0244,BG_00491,matched_control,True,True,,,2021-12-18 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0245,POS_0245,case,True,True,,,2021-12-18 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0245,BG_01952,matched_control,True,True,,,2021-12-18 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0245,BG_00970,matched_control,True,True,,,2021-12-18 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0247,POS_0247,case,True,True,,,2021-12-26 00:00:00,Dynamic_World,HIGH,BUILT
+POS_0247,BG_00845,matched_control,True,True,,,2021-12-26 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0247,BG_02765,matched_control,True,True,,,2021-12-26 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0248,POS_0248,case,True,True,,,2021-12-18 00:00:00,Dynamic_World,HIGH,BUILT
+POS_0248,BG_02758,matched_control,True,True,,,2021-12-18 00:00:00,Dynamic_World,HIGH,BUILT
+POS_0248,BG_01858,matched_control,True,True,,,2021-12-18 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0249,POS_0249,case,True,True,,,2021-12-18 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0249,BG_02162,matched_control,True,True,,,2021-12-18 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0249,BG_01413,matched_control,True,True,,,2021-12-18 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0250,POS_0250,case,True,True,,,2021-12-18 00:00:00,Dynamic_World,HIGH,BUILT
+POS_0250,BG_02542,matched_control,True,True,,,2021-12-18 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0250,BG_00603,matched_control,True,True,,,2021-12-18 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0251,POS_0251,case,True,True,,,2021-12-17 00:00:00,Dynamic_World,HIGH,BUILT
+POS_0251,BG_02436,matched_control,True,True,,,2021-12-17 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0251,BG_01630,matched_control,True,True,,,2021-12-17 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0252,POS_0252,case,True,True,,,2021-12-18 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0252,BG_00222,matched_control,True,True,,,2021-12-18 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0252,BG_02309,matched_control,True,True,,,2021-12-18 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0253,POS_0253,case,True,True,,,2021-12-18 00:00:00,Dynamic_World,HIGH,BUILT
+POS_0253,BG_01528,matched_control,True,True,,,2021-12-18 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0253,BG_00430,matched_control,True,True,,,2021-12-18 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0254,POS_0254,case,True,False,,,2021-11-18 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0254,BG_01683,matched_control,True,False,,,2021-11-18 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0254,BG_02754,matched_control,True,False,strict_landcover,control_over_water,2021-11-18 00:00:00,Dynamic_World,HIGH,WATER
+POS_0255,POS_0255,case,True,False,,,2021-12-18 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0255,BG_01867,matched_control,True,False,soil_moisture,,2021-12-18 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0255,BG_01006,matched_control,True,False,,,2021-12-18 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0256,POS_0256,case,True,True,,,2021-12-18 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0256,BG_00405,matched_control,True,True,,,2021-12-18 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0256,BG_02176,matched_control,True,True,,,2021-12-18 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0257,POS_0257,case,True,True,,,2021-12-18 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0257,BG_02167,matched_control,True,True,,,2021-12-18 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0257,BG_00529,matched_control,True,True,,,2021-12-18 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0258,POS_0258,case,True,True,,,2021-12-18 00:00:00,Dynamic_World,HIGH,BUILT
+POS_0258,BG_02852,matched_control,True,True,,,2021-12-18 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0258,BG_02724,matched_control,True,True,,,2021-12-18 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0259,POS_0259,case,True,True,,,2021-12-26 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0259,BG_02430,matched_control,True,True,,,2021-12-26 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0259,BG_00962,matched_control,True,True,,,2021-12-26 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0260,POS_0260,case,True,False,,,2021-12-12 00:00:00,Dynamic_World,HIGH,BUILT
+POS_0260,BG_01021,matched_control,True,False,strict_landcover,landcover_missing_or_unmapped; landcover_reliability_not_high,2021-12-12 00:00:00,,MISSING,
+POS_0260,BG_00419,matched_control,True,False,,,2021-12-12 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0261,POS_0261,case,True,True,,,2021-12-17 00:00:00,Dynamic_World,HIGH,BUILT
+POS_0261,BG_00060,matched_control,True,True,,,2021-12-17 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0261,BG_01978,matched_control,True,True,,,2021-12-17 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0262,POS_0262,case,True,True,,,2021-12-18 00:00:00,Dynamic_World,HIGH,BUILT
+POS_0262,BG_00301,matched_control,True,True,,,2021-12-18 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0262,BG_02654,matched_control,True,True,,,2021-12-18 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0263,POS_0263,case,True,False,,,2021-12-18 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0263,BG_02019,matched_control,True,False,,,2021-12-18 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0263,BG_01645,matched_control,True,False,strict_landcover,landcover_missing_or_unmapped; landcover_reliability_not_high,2021-12-18 00:00:00,,MISSING,
+POS_0264,POS_0264,case,True,True,,,2021-12-19 00:00:00,Dynamic_World,HIGH,BUILT
+POS_0264,BG_02443,matched_control,True,True,,,2021-12-19 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0264,BG_00229,matched_control,True,True,,,2021-12-19 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0265,POS_0265,case,True,False,,,2021-12-19 00:00:00,Dynamic_World,HIGH,BUILT
+POS_0265,BG_01008,matched_control,True,False,strict_landcover,landcover_missing_or_unmapped; landcover_reliability_not_high,2021-12-19 00:00:00,,MISSING,
+POS_0265,BG_00651,matched_control,True,False,,,2021-12-19 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0266,POS_0266,case,True,True,,,2021-12-19 00:00:00,Dynamic_World,HIGH,BUILT
+POS_0266,BG_01812,matched_control,True,True,,,2021-12-19 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0266,BG_02469,matched_control,True,True,,,2021-12-19 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0267,POS_0267,case,True,True,,,2021-12-19 00:00:00,Dynamic_World,HIGH,BUILT
+POS_0267,BG_01141,matched_control,True,True,,,2021-12-19 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0267,BG_00679,matched_control,True,True,,,2021-12-19 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0268,POS_0268,case,True,True,,,2021-12-19 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0268,BG_02031,matched_control,True,True,,,2021-12-19 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0268,BG_00780,matched_control,True,True,,,2021-12-19 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0269,POS_0269,case,True,True,,,2021-12-19 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0269,BG_02997,matched_control,True,True,,,2021-12-19 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0269,BG_02790,matched_control,True,True,,,2021-12-19 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0270,POS_0270,case,True,True,,,2021-12-19 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0270,BG_01537,matched_control,True,True,,,2021-12-19 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0270,BG_01263,matched_control,True,True,,,2021-12-19 00:00:00,Dynamic_World,HIGH,BUILT
+POS_0271,POS_0271,case,True,True,,,2021-12-19 00:00:00,Dynamic_World,HIGH,BUILT
+POS_0271,BG_02892,matched_control,True,True,,,2021-12-19 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0271,BG_02954,matched_control,True,True,,,2021-12-19 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0272,POS_0272,case,True,False,,,2021-12-19 00:00:00,Dynamic_World,HIGH,BUILT
+POS_0272,BG_00756,matched_control,True,False,soil_moisture,,2021-12-19 00:00:00,Dynamic_World,HIGH,CROPLAND
+POS_0272,BG_02263,matched_control,True,False,,,2021-12-19 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0273,POS_0273,case,True,True,,,2021-12-19 00:00:00,Dynamic_World,HIGH,BUILT
+POS_0273,BG_02141,matched_control,True,True,,,2021-12-19 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0273,BG_01360,matched_control,True,True,,,2021-12-19 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0274,POS_0274,case,True,True,,,2021-12-19 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0274,BG_01941,matched_control,True,True,,,2021-12-19 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0274,BG_02286,matched_control,True,True,,,2021-12-19 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0275,POS_0275,case,True,True,,,2021-12-19 00:00:00,Dynamic_World,HIGH,BUILT
+POS_0275,BG_00279,matched_control,True,True,,,2021-12-19 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0275,BG_01548,matched_control,True,True,,,2021-12-19 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0277,POS_0277,case,True,False,,,2021-05-29 00:00:00,Dynamic_World,HIGH,BUILT
+POS_0277,BG_00874,matched_control,True,False,,,2021-05-29 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0277,BG_02771,matched_control,True,False,soil_moisture,,2021-05-29 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0278,POS_0278,case,True,True,,,2021-01-06 00:00:00,Dynamic_World,HIGH,BUILT
+POS_0278,BG_01471,matched_control,True,True,,,2021-01-06 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0278,BG_00420,matched_control,True,True,,,2021-01-06 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0279,POS_0279,case,True,True,,,2021-12-01 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0279,BG_00884,matched_control,True,True,,,2021-12-01 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0279,BG_01705,matched_control,True,True,,,2021-12-01 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0280,POS_0280,case,False,False,soil_moisture,,2021-10-30 00:00:00,Dynamic_World,HIGH,BUILT
+POS_0280,BG_02581,matched_control,False,False,,,2021-10-30 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0280,BG_02561,matched_control,False,False,,,2021-10-30 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0281,POS_0281,case,False,False,soil_moisture,,2021-09-28 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0281,BG_02252,matched_control,False,False,strict_landcover,landcover_missing_or_unmapped; landcover_reliability_not_high,2021-09-28 00:00:00,,MISSING,
+POS_0281,BG_02977,matched_control,False,False,,,2021-09-28 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0282,POS_0282,case,False,False,soil_moisture,,2021-09-28 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0282,BG_00138,matched_control,False,False,,,2021-09-28 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0282,BG_02029,matched_control,False,False,,,2021-09-28 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0287,POS_0287,case,True,False,,,2021-01-20 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0287,BG_01734,matched_control,True,False,,,2021-01-20 00:00:00,Dynamic_World,HIGH,FOREST
+POS_0287,BG_01133,matched_control,True,False,soil_moisture,,2021-01-20 00:00:00,Dynamic_World,HIGH,BUILT

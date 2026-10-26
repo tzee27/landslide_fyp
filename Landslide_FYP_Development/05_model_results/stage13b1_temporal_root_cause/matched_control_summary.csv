@@ -1,0 +1,5 @@
+dataset,cases,with_two_controls,minimum_controls,maximum_controls
+full_enhanced,121,121,2,2
+landcover,148,148,2,2
+rainfall,189,189,2,2
+rainfall_soilmoisture,158,158,2,2

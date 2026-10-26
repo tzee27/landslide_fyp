@@ -1,0 +1,10 @@
+check,status,result
+Original temporal cases preserved,PASS,121
+Stage13B2 control-only failures loaded,PASS,33
+Invalid control slots identified,PASS,34
+Unused static background candidates identified,PASS,2552
+All proposed candidates already have verified historical features,PENDING_EXTRACTION,NO — shortlist contains coordinates and dates only
+Original pseudo-absence exclusion distances verified for new controls,PENDING_SPATIAL_AUDIT,No new candidate approved
+Historical environmental source timestamps checked,PENDING_SOURCE_AUDIT,Must verify observations precede/reference event
+Safe to replace production temporal dataset,NOT_YET,Zero approved replacements
+Old benchmark results preserved,PASS,Original datasets and models untouched

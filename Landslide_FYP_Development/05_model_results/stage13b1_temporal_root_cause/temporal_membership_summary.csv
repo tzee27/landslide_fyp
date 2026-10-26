@@ -1,0 +1,5 @@
+group,cases
+Static positives,194
+Missing from full temporal,73
+In both rain+moisture and land-cover subsets,121
+In both components but absent from full,0

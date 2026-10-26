@@ -1,0 +1,285 @@
+notebook,cell,line,rule_keyword,source_line
+05B_temporal_feature_extraction.ipynb,3,15,soil_moisture,RUN_ERA5_SOIL_MOISTURE = True
+05B_temporal_feature_extraction.ipynb,3,35,eligible,"/ ""malaysia_positive_inventory_ml_eligible.geojson"""
+05B_temporal_feature_extraction.ipynb,3,64,eligible,"""ML-eligible positive metadata"": POSITIVE_META_PATH,"
+05B_temporal_feature_extraction.ipynb,5,8,event_date;date,"positive_meta[""event_date_parsed""] = pd.to_datetime("
+05B_temporal_feature_extraction.ipynb,5,9,event_date;date,"positive_meta.get(""event_date""),"
+05B_temporal_feature_extraction.ipynb,5,14,event_date;date,"positive_meta[""event_date_parsed""].dt.year"
+05B_temporal_feature_extraction.ipynb,5,18,event_date;date,"positive_meta[""event_date_parsed""].dt.month"
+05B_temporal_feature_extraction.ipynb,5,22,event_date;date,"positive_meta[""event_date_parsed""].dt.day"
+05B_temporal_feature_extraction.ipynb,5,25,date,date_meta = (
+05B_temporal_feature_extraction.ipynb,5,29,event_date;date,"""event_date_parsed"","
+05B_temporal_feature_extraction.ipynb,5,44,date,"date_meta,"
+05B_temporal_feature_extraction.ipynb,5,52,date,"""Landslides with event date:"","
+05B_temporal_feature_extraction.ipynb,5,56,notna;event_date;date,"& static[""event_date_parsed""].notna()"
+05B_temporal_feature_extraction.ipynb,7,3,valid,"& static[""national_core_static_valid_final""].eq(True)"
+05B_temporal_feature_extraction.ipynb,7,4,notna;event_date;date,"& static[""event_date_parsed""].notna()"
+05B_temporal_feature_extraction.ipynb,7,17,eligible,"""Temporal-model eligible positives:"","
+05B_temporal_feature_extraction.ipynb,9,1,valid,valid_background = (
+05B_temporal_feature_extraction.ipynb,9,3,date,"static[""sample_class""].eq(""background_candidate"")"
+05B_temporal_feature_extraction.ipynb,9,4,valid,"& static[""national_core_static_valid_final""].eq(True)"
+05B_temporal_feature_extraction.ipynb,9,15,valid,if len(valid_background) < required_controls:
+05B_temporal_feature_extraction.ipynb,9,17,valid;date,"""Not enough static-valid background candidates """
+05B_temporal_feature_extraction.ipynb,9,26,valid,"valid_background.index.to_numpy(),"
+05B_temporal_feature_extraction.ipynb,9,32,valid,valid_background.loc[
+05B_temporal_feature_extraction.ipynb,9,44,event_date;date,"""event_date_parsed"","
+05B_temporal_feature_extraction.ipynb,9,59,matched_positive_id,"""matched_positive_id"""
+05B_temporal_feature_extraction.ipynb,9,65,date,"""reference_date"""
+05B_temporal_feature_extraction.ipynb,9,67,event_date;date,"""event_date_parsed"""
+05B_temporal_feature_extraction.ipynb,9,90,matched_positive_id,"""matched_positive_id"""
+05B_temporal_feature_extraction.ipynb,9,96,date,"""reference_date"""
+05B_temporal_feature_extraction.ipynb,9,98,event_date;date,"""event_date_parsed"""
+05B_temporal_feature_extraction.ipynb,9,121,temporal_role,"""temporal_role"""
+05B_temporal_feature_extraction.ipynb,9,125,temporal_role,"""temporal_role"""
+05B_temporal_feature_extraction.ipynb,9,142,temporal_role,"""temporal_role"""
+05B_temporal_feature_extraction.ipynb,9,151,temporal_role,"""temporal_role"""
+05B_temporal_feature_extraction.ipynb,13,46,dropna,.dropna()
+05B_temporal_feature_extraction.ipynb,15,81,notna,if pd.notna(
+05B_temporal_feature_extraction.ipynb,15,115,valid,"""local_year_missing_or_no_valid_pixel"","
+05B_temporal_feature_extraction.ipynb,19,20,date,start = ee.Date.fromYMD(
+05B_temporal_feature_extraction.ipynb,19,35,date,.filterDate(
+05B_temporal_feature_extraction.ipynb,21,31,notna,if pd.notna(
+05B_temporal_feature_extraction.ipynb,21,69,matched_positive_id,"""matched_positive_id"""
+05B_temporal_feature_extraction.ipynb,21,71,matched_positive_id,"""matched_positive_id"""
+05B_temporal_feature_extraction.ipynb,21,102,matched_positive_id,"""matched_positive_id"""
+05B_temporal_feature_extraction.ipynb,23,5,rain_,RAIN_WINDOWS_DAYS = [
+05B_temporal_feature_extraction.ipynb,23,14,date,"reference_date,"
+05B_temporal_feature_extraction.ipynb,23,17,date,end = ee.Date(
+05B_temporal_feature_extraction.ipynb,23,19,date,reference_date
+05B_temporal_feature_extraction.ipynb,23,34,date,.filterDate(
+05B_temporal_feature_extraction.ipynb,23,54,rain_,"f""rain_{days}d_mm"""
+05B_temporal_feature_extraction.ipynb,25,94,rain_,rain_parts = []
+05B_temporal_feature_extraction.ipynb,25,96,date,"for reference_date, group in temporal_samples.groupby("
+05B_temporal_feature_extraction.ipynb,25,97,date,"""reference_date"""
+05B_temporal_feature_extraction.ipynb,25,102,date,"reference_date,"
+05B_temporal_feature_extraction.ipynb,25,105,rain_,for days in RAIN_WINDOWS_DAYS
+05B_temporal_feature_extraction.ipynb,25,113,rain_,"f""rain_{d}d_mm"""
+05B_temporal_feature_extraction.ipynb,25,114,rain_,for d in RAIN_WINDOWS_DAYS
+05B_temporal_feature_extraction.ipynb,25,124,rain_,rain_parts.append(
+05B_temporal_feature_extraction.ipynb,25,129,date,"""Rainfall date complete:"","
+05B_temporal_feature_extraction.ipynb,25,131,date,reference_date
+05B_temporal_feature_extraction.ipynb,25,132,date,").date(),"
+05B_temporal_feature_extraction.ipynb,25,142,rain_,rain_features = pd.concat(
+05B_temporal_feature_extraction.ipynb,25,143,rain_,"rain_parts,"
+05B_temporal_feature_extraction.ipynb,25,149,rain_,"rain_features,"
+05B_temporal_feature_extraction.ipynb,27,11,soil_moisture,def era5_7day_soil_moisture_image(
+05B_temporal_feature_extraction.ipynb,27,12,date,reference_date
+05B_temporal_feature_extraction.ipynb,27,14,date,end = ee.Date(
+05B_temporal_feature_extraction.ipynb,27,16,date,reference_date
+05B_temporal_feature_extraction.ipynb,27,31,date,.filterDate(
+05B_temporal_feature_extraction.ipynb,27,45,soil_moisture,"""soil_moisture_0_7cm_7d_mean"","
+05B_temporal_feature_extraction.ipynb,27,46,soil_moisture,"""soil_moisture_7_28cm_7d_mean"","
+05B_temporal_feature_extraction.ipynb,28,1,soil_moisture,if RUN_ERA5_SOIL_MOISTURE:
+05B_temporal_feature_extraction.ipynb,28,5,date,"for reference_date, group in temporal_samples.groupby("
+05B_temporal_feature_extraction.ipynb,28,6,date,"""reference_date"""
+05B_temporal_feature_extraction.ipynb,28,9,soil_moisture,image = era5_7day_soil_moisture_image(
+05B_temporal_feature_extraction.ipynb,28,10,date,reference_date
+05B_temporal_feature_extraction.ipynb,28,14,soil_moisture,"""soil_moisture_0_7cm_7d_mean"","
+05B_temporal_feature_extraction.ipynb,28,15,soil_moisture,"""soil_moisture_7_28cm_7d_mean"","
+05B_temporal_feature_extraction.ipynb,28,30,date,"""ERA5 soil moisture date complete:"","
+05B_temporal_feature_extraction.ipynb,28,32,date,reference_date
+05B_temporal_feature_extraction.ipynb,28,33,date,).date()
+05B_temporal_feature_extraction.ipynb,28,54,soil_moisture,"""soil_moisture_0_7cm_7d_mean"""
+05B_temporal_feature_extraction.ipynb,28,58,soil_moisture,"""soil_moisture_7_28cm_7d_mean"""
+05B_temporal_feature_extraction.ipynb,34,31,date,"""reference_date"","
+05B_temporal_feature_extraction.ipynb,34,43,date,reference_date
+05B_temporal_feature_extraction.ipynb,34,46,date,date_string = pd.Timestamp(
+05B_temporal_feature_extraction.ipynb,34,47,date,reference_date
+05B_temporal_feature_extraction.ipynb,34,71,date,"date_string,"
+05B_temporal_feature_extraction.ipynb,34,94,date,"""reference_date"":"
+05B_temporal_feature_extraction.ipynb,34,95,date,"date_string,"
+05B_temporal_feature_extraction.ipynb,34,169,date,"""reference_date"":"
+05B_temporal_feature_extraction.ipynb,34,170,date,"date_string,"
+05B_temporal_feature_extraction.ipynb,34,190,date,"""reference_date"":"
+05B_temporal_feature_extraction.ipynb,34,191,date,"date_string,"
+05B_temporal_feature_extraction.ipynb,35,12,date,"""reference_date"""
+05B_temporal_feature_extraction.ipynb,35,28,date,"""reference_date"""
+05B_temporal_feature_extraction.ipynb,35,53,date,"""reference_date"""
+05B_temporal_feature_extraction.ipynb,35,107,date,"""reference_date"""
+05B_temporal_feature_extraction.ipynb,35,119,date,"""_reference_date_string"""
+05B_temporal_feature_extraction.ipynb,35,121,date,pd.to_datetime(
+05B_temporal_feature_extraction.ipynb,35,123,date,"""reference_date"""
+05B_temporal_feature_extraction.ipynb,35,135,date,"""_reference_date_string"""
+05B_temporal_feature_extraction.ipynb,35,139,date,"""reference_date"""
+05B_temporal_feature_extraction.ipynb,37,3,rain_,"""rain_1d_mm"","
+05B_temporal_feature_extraction.ipynb,37,4,rain_,"""rain_3d_mm"","
+05B_temporal_feature_extraction.ipynb,37,5,rain_,"""rain_7d_mm"","
+05B_temporal_feature_extraction.ipynb,37,6,rain_,"""rain_30d_mm"","
+05B_temporal_feature_extraction.ipynb,37,7,soil_moisture,"""soil_moisture_0_7cm_7d_mean"","
+05B_temporal_feature_extraction.ipynb,37,8,soil_moisture,"""soil_moisture_7_28cm_7d_mean"","
+05B_temporal_feature_extraction.ipynb,37,29,notna,].notna().sum()
+05B_temporal_feature_extraction.ipynb,37,36,isna,].isna().sum()
+05B_temporal_feature_extraction.ipynb,37,43,notna,].notna().mean()
+05B_temporal_feature_extraction.ipynb,39,8,dropna,dropna=False
+05B_QC_finalize_temporal_features.ipynb,5,5,date,"df[""reference_date""] = pd.to_datetime("
+05B_QC_finalize_temporal_features.ipynb,5,6,date,"df[""reference_date""],"
+05B_QC_finalize_temporal_features.ipynb,5,18,temporal_role,"df[""temporal_role""]"
+05B_QC_finalize_temporal_features.ipynb,5,20,temporal_role,".rename_axis(""temporal_role"")"
+05B_QC_finalize_temporal_features.ipynb,5,26,matched_positive_id,"df[""matched_positive_id""].nunique()"
+05B_QC_finalize_temporal_features.ipynb,7,77,isna,if pd.isna(source) or pd.isna(raw_code):
+05B_QC_finalize_temporal_features.ipynb,7,144,landcover_harmonised,"""landcover_harmonised"""
+05B_QC_finalize_temporal_features.ipynb,7,152,landcover_harmonised,"""landcover_harmonised_code"""
+05B_QC_finalize_temporal_features.ipynb,7,164,landcover_harmonised,"""landcover_harmonised"","
+05B_QC_finalize_temporal_features.ipynb,7,165,landcover_harmonised,"""landcover_harmonised_code"""
+05B_QC_finalize_temporal_features.ipynb,9,14,landcover_harmonised,"""landcover_harmonised"""
+05B_QC_finalize_temporal_features.ipynb,9,18,isna,if pd.isna(
+05B_QC_finalize_temporal_features.ipynb,9,30,notna,if pd.notna(year) and int(year) == 2015:
+05B_QC_finalize_temporal_features.ipynb,9,54,dropna,dropna=False
+05B_QC_finalize_temporal_features.ipynb,11,5,landcover_harmonised,"""landcover_harmonised"""
+05B_QC_finalize_temporal_features.ipynb,11,14,valid,"""water_background_invalid"""
+05B_QC_finalize_temporal_features.ipynb,11,17,temporal_role,"""temporal_role"""
+05B_QC_finalize_temporal_features.ipynb,11,33,temporal_role,"""temporal_role"""
+05B_QC_finalize_temporal_features.ipynb,11,49,valid,"""water_background_invalid"""
+05B_QC_finalize_temporal_features.ipynb,11,67,valid,"""water_background_invalid"""
+05B_QC_finalize_temporal_features.ipynb,11,75,temporal_role,"""temporal_role"","
+05B_QC_finalize_temporal_features.ipynb,11,76,matched_positive_id,"""matched_positive_id"","
+05B_QC_finalize_temporal_features.ipynb,11,80,landcover_harmonised,"""landcover_harmonised"","
+05B_QC_finalize_temporal_features.ipynb,13,1,rain_,rain_cols = [
+05B_QC_finalize_temporal_features.ipynb,13,2,rain_,"""rain_1d_mm"","
+05B_QC_finalize_temporal_features.ipynb,13,3,rain_,"""rain_3d_mm"","
+05B_QC_finalize_temporal_features.ipynb,13,4,rain_,"""rain_7d_mm"","
+05B_QC_finalize_temporal_features.ipynb,13,5,rain_,"""rain_30d_mm"","
+05B_QC_finalize_temporal_features.ipynb,13,13,rain_,rain_cols
+05B_QC_finalize_temporal_features.ipynb,13,15,notna,.notna()
+05B_QC_finalize_temporal_features.ipynb,13,23,rain_,"df[""rain_1d_mm""].le("
+05B_QC_finalize_temporal_features.ipynb,13,24,rain_,"df[""rain_3d_mm""]"
+05B_QC_finalize_temporal_features.ipynb,13,27,rain_,"df[""rain_3d_mm""].le("
+05B_QC_finalize_temporal_features.ipynb,13,28,rain_,"df[""rain_7d_mm""]"
+05B_QC_finalize_temporal_features.ipynb,13,31,rain_,"df[""rain_7d_mm""].le("
+05B_QC_finalize_temporal_features.ipynb,13,32,rain_,"df[""rain_30d_mm""]"
+05B_QC_finalize_temporal_features.ipynb,13,38,valid,"""rainfall_valid"""
+05B_QC_finalize_temporal_features.ipynb,13,51,valid,"""Rainfall valid:"","
+05B_QC_finalize_temporal_features.ipynb,13,54,valid,"""rainfall_valid"""
+05B_QC_finalize_temporal_features.ipynb,15,1,soil_moisture,soil_moisture_cols = [
+05B_QC_finalize_temporal_features.ipynb,15,2,soil_moisture,"""soil_moisture_0_7cm_7d_mean"","
+05B_QC_finalize_temporal_features.ipynb,15,3,soil_moisture,"""soil_moisture_7_28cm_7d_mean"","
+05B_QC_finalize_temporal_features.ipynb,15,8,soil_moisture,"""soil_moisture_complete"""
+05B_QC_finalize_temporal_features.ipynb,15,11,soil_moisture,soil_moisture_cols
+05B_QC_finalize_temporal_features.ipynb,15,13,notna,.notna()
+05B_QC_finalize_temporal_features.ipynb,15,22,soil_moisture,"""soil_moisture_complete"""
+05B_QC_finalize_temporal_features.ipynb,17,2,valid,"""landcover_valid_strict"""
+05B_QC_finalize_temporal_features.ipynb,17,5,landcover_harmonised,"""landcover_harmonised"""
+05B_QC_finalize_temporal_features.ipynb,17,7,notna,.notna()
+05B_QC_finalize_temporal_features.ipynb,17,17,valid,"""water_background_invalid"""
+05B_QC_finalize_temporal_features.ipynb,17,23,valid,"""landcover_valid_relaxed"""
+05B_QC_finalize_temporal_features.ipynb,17,26,landcover_harmonised,"""landcover_harmonised"""
+05B_QC_finalize_temporal_features.ipynb,17,28,notna,.notna()
+05B_QC_finalize_temporal_features.ipynb,17,31,valid,"""water_background_invalid"""
+05B_QC_finalize_temporal_features.ipynb,17,37,valid,"""Strict land-cover valid:"","
+05B_QC_finalize_temporal_features.ipynb,17,40,valid,"""landcover_valid_strict"""
+05B_QC_finalize_temporal_features.ipynb,17,49,valid,"""Relaxed land-cover valid:"","
+05B_QC_finalize_temporal_features.ipynb,17,52,valid,"""landcover_valid_relaxed"""
+05B_QC_finalize_temporal_features.ipynb,19,10,notna,.notna()
+05B_QC_finalize_temporal_features.ipynb,19,23,notna,.notna()
+05B_QC_finalize_temporal_features.ipynb,21,3,valid,"row_valid_column,"
+05B_QC_finalize_temporal_features.ipynb,21,7,valid,valid_group_ids = []
+05B_QC_finalize_temporal_features.ipynb,21,12,matched_positive_id,"""matched_positive_id"""
+05B_QC_finalize_temporal_features.ipynb,21,17,temporal_role,"""temporal_role"""
+05B_QC_finalize_temporal_features.ipynb,21,27,temporal_role,"""temporal_role"""
+05B_QC_finalize_temporal_features.ipynb,21,35,valid,all_rows_valid = bool(
+05B_QC_finalize_temporal_features.ipynb,21,37,valid,row_valid_column
+05B_QC_finalize_temporal_features.ipynb,21,43,valid,structure_valid = (
+05B_QC_finalize_temporal_features.ipynb,21,48,valid,group_valid = (
+05B_QC_finalize_temporal_features.ipynb,21,49,valid,structure_valid
+05B_QC_finalize_temporal_features.ipynb,21,50,valid,and all_rows_valid
+05B_QC_finalize_temporal_features.ipynb,21,53,valid,if group_valid:
+05B_QC_finalize_temporal_features.ipynb,21,54,valid,valid_group_ids.append(
+05B_QC_finalize_temporal_features.ipynb,21,59,matched_positive_id,"""matched_positive_id"":"
+05B_QC_finalize_temporal_features.ipynb,21,68,valid,"""structure_valid"":"
+05B_QC_finalize_temporal_features.ipynb,21,69,valid,"structure_valid,"
+05B_QC_finalize_temporal_features.ipynb,21,71,valid,"""all_rows_valid"":"
+05B_QC_finalize_temporal_features.ipynb,21,72,valid,"all_rows_valid,"
+05B_QC_finalize_temporal_features.ipynb,21,74,valid,"""group_valid"":"
+05B_QC_finalize_temporal_features.ipynb,21,75,valid,"group_valid,"
+05B_QC_finalize_temporal_features.ipynb,21,79,valid,"valid_group_ids,"
+05B_QC_finalize_temporal_features.ipynb,23,1,rain_,"rain_group_ids, rain_group_audit = ("
+05B_QC_finalize_temporal_features.ipynb,23,4,valid,"""rainfall_valid"""
+05B_QC_finalize_temporal_features.ipynb,23,11,matched_positive_id,"""matched_positive_id"""
+05B_QC_finalize_temporal_features.ipynb,23,14,rain_,rain_group_ids
+05B_QC_finalize_temporal_features.ipynb,23,22,rain_,rain_group_ids
+05B_QC_finalize_temporal_features.ipynb,23,34,rain_,rain_group_audit.to_csv(
+05B_QC_finalize_temporal_features.ipynb,25,2,valid,"""hydro_row_valid"""
+05B_QC_finalize_temporal_features.ipynb,25,5,valid,"""rainfall_valid"""
+05B_QC_finalize_temporal_features.ipynb,25,9,soil_moisture,"""soil_moisture_complete"""
+05B_QC_finalize_temporal_features.ipynb,25,17,valid,"""hydro_row_valid"""
+05B_QC_finalize_temporal_features.ipynb,25,24,matched_positive_id,"""matched_positive_id"""
+05B_QC_finalize_temporal_features.ipynb,27,4,valid,"""landcover_valid_strict"""
+05B_QC_finalize_temporal_features.ipynb,27,11,matched_positive_id,"""matched_positive_id"""
+05B_QC_finalize_temporal_features.ipynb,29,2,valid,"""full_temporal_row_valid"""
+05B_QC_finalize_temporal_features.ipynb,29,5,valid,"""rainfall_valid"""
+05B_QC_finalize_temporal_features.ipynb,29,9,soil_moisture,"""soil_moisture_complete"""
+05B_QC_finalize_temporal_features.ipynb,29,13,valid,"""landcover_valid_strict"""
+05B_QC_finalize_temporal_features.ipynb,29,25,valid,"""full_temporal_row_valid"""
+05B_QC_finalize_temporal_features.ipynb,29,32,matched_positive_id,"""matched_positive_id"""
+05B_QC_finalize_temporal_features.ipynb,31,5,landcover_harmonised,"""landcover_harmonised"""
+05B_QC_finalize_temporal_features.ipynb,31,7,dropna,dropna=False
+05B_QC_finalize_temporal_features.ipynb,31,33,landcover_harmonised,"/ ""landcover_harmonised_distribution.csv"","
+05B_QC_finalize_temporal_features.ipynb,33,17,matched_positive_id,"""matched_positive_id"""
+05B_QC_finalize_temporal_features.ipynb,33,24,temporal_role,"""temporal_role"""
+05B_QC_finalize_temporal_features.ipynb,33,35,temporal_role,"""temporal_role"""
+05B_QC_finalize_temporal_features.ipynb,35,20,temporal_role,"""temporal_role"""
+06_final_pseudoabsence_and_model_dataset (1).ipynb,7,1,valid,valid_mask = (
+06_final_pseudoabsence_and_model_dataset (1).ipynb,7,3,valid,"""national_core_static_valid_final"""
+06_final_pseudoabsence_and_model_dataset (1).ipynb,7,8,valid,valid_mask
+06_final_pseudoabsence_and_model_dataset (1).ipynb,7,18,valid,valid_mask
+06_final_pseudoabsence_and_model_dataset (1).ipynb,7,23,date,"""background_candidate"""
+06_final_pseudoabsence_and_model_dataset (1).ipynb,7,29,valid,"""Valid positive landslides:"","
+06_final_pseudoabsence_and_model_dataset (1).ipynb,7,34,valid;date,"""Valid background candidates:"","
+06_final_pseudoabsence_and_model_dataset (1).ipynb,7,41,valid,"""No valid positive samples."""
+06_final_pseudoabsence_and_model_dataset (1).ipynb,7,46,valid;date,"""Not enough valid background candidates for 1:2 sampling."""
+06_final_pseudoabsence_and_model_dataset (1).ipynb,11,50,eligible,eligible = np.where(
+06_final_pseudoabsence_and_model_dataset (1).ipynb,11,54,eligible,if len(eligible) == 0:
+06_final_pseudoabsence_and_model_dataset (1).ipynb,11,60,eligible,chosen = eligible[
+06_final_pseudoabsence_and_model_dataset (1).ipynb,11,63,eligible,eligible
+06_final_pseudoabsence_and_model_dataset (1).ipynb,23,13,valid,"""Not enough spatial blocks for 5-fold grouped validation."""
+06_final_pseudoabsence_and_model_dataset (1).ipynb,23,33,valid,"""Too few positive-containing blocks for 5-fold validation."""
+06_final_pseudoabsence_and_model_dataset (1).ipynb,29,11,temporal_role,"""temporal_role"""
+06_final_pseudoabsence_and_model_dataset (1).ipynb,29,21,matched_positive_id,"""matched_positive_id"""
+06_final_pseudoabsence_and_model_dataset (1).ipynb,29,36,matched_positive_id,"""matched_positive_id"""
+06_final_pseudoabsence_and_model_dataset (1).ipynb,29,43,valid,"""validation_group"""
+06_final_pseudoabsence_and_model_dataset (1).ipynb,29,66,valid,"""| validation blocks:"","
+06_final_pseudoabsence_and_model_dataset (1).ipynb,29,70,valid,"""validation_group"""
+06_final_pseudoabsence_and_model_dataset (1).ipynb,33,33,valid,"""validation_groups"":"
+06_final_pseudoabsence_and_model_dataset (1).ipynb,33,71,valid,"""validation_groups"":"
+06_final_pseudoabsence_and_model_dataset (1).ipynb,33,94,temporal_role,"""temporal_role"""
+06_final_pseudoabsence_and_model_dataset (1).ipynb,33,105,temporal_role,"""temporal_role"""
+06_final_pseudoabsence_and_model_dataset (1).ipynb,33,113,valid,"""validation_groups"":"
+06_final_pseudoabsence_and_model_dataset (1).ipynb,33,115,valid,"""validation_group"""
+06_final_pseudoabsence_and_model_dataset (1).ipynb,35,20,valid,"""Primary validation"","
+09_temporal_incremental_benchmark.ipynb,5,22,date,"print(""Static categorical candidates:"", STATIC_CATEGORICAL)"
+09_temporal_incremental_benchmark.ipynb,7,4,rain_,"""rain_1d_mm"","
+09_temporal_incremental_benchmark.ipynb,7,5,rain_,"""rain_3d_mm"","
+09_temporal_incremental_benchmark.ipynb,7,6,rain_,"""rain_7d_mm"","
+09_temporal_incremental_benchmark.ipynb,7,7,rain_,"""rain_30d_mm"","
+09_temporal_incremental_benchmark.ipynb,7,14,rain_,"""rain_1d_mm"","
+09_temporal_incremental_benchmark.ipynb,7,15,rain_,"""rain_3d_mm"","
+09_temporal_incremental_benchmark.ipynb,7,16,rain_,"""rain_7d_mm"","
+09_temporal_incremental_benchmark.ipynb,7,17,rain_,"""rain_30d_mm"","
+09_temporal_incremental_benchmark.ipynb,7,18,soil_moisture,"""soil_moisture_0_7cm_7d_mean"","
+09_temporal_incremental_benchmark.ipynb,7,19,soil_moisture,"""soil_moisture_7_28cm_7d_mean"","
+09_temporal_incremental_benchmark.ipynb,7,27,landcover_harmonised,"""landcover_harmonised"","
+09_temporal_incremental_benchmark.ipynb,7,33,rain_,"""rain_1d_mm"","
+09_temporal_incremental_benchmark.ipynb,7,34,rain_,"""rain_3d_mm"","
+09_temporal_incremental_benchmark.ipynb,7,35,rain_,"""rain_7d_mm"","
+09_temporal_incremental_benchmark.ipynb,7,36,rain_,"""rain_30d_mm"","
+09_temporal_incremental_benchmark.ipynb,7,37,soil_moisture,"""soil_moisture_0_7cm_7d_mean"","
+09_temporal_incremental_benchmark.ipynb,7,38,soil_moisture,"""soil_moisture_7_28cm_7d_mean"","
+09_temporal_incremental_benchmark.ipynb,7,42,landcover_harmonised,"""landcover_harmonised"","
+09_temporal_incremental_benchmark.ipynb,9,12,temporal_role,"temp[""temporal_role""]"
+09_temporal_incremental_benchmark.ipynb,9,27,valid,"""| validation groups:"","
+09_temporal_incremental_benchmark.ipynb,9,28,valid,"temp[""validation_group""].nunique(),"
+09_temporal_incremental_benchmark.ipynb,15,65,date,candidates = np.linspace(
+09_temporal_incremental_benchmark.ipynb,15,73,date,for t in candidates:
+09_temporal_incremental_benchmark.ipynb,17,31,valid,"""validation_group"""
+09_temporal_incremental_benchmark.ipynb,17,53,rain_,"for fold, (train_idx, test_idx) in enumerate("
+09_temporal_incremental_benchmark.ipynb,17,59,rain_,train_idx
+09_temporal_incremental_benchmark.ipynb,17,63,rain_,train_idx
+09_temporal_incremental_benchmark.ipynb,17,67,rain_,train_idx
+09_temporal_incremental_benchmark.ipynb,17,148,rain_,train_prob = best.predict_proba(
+09_temporal_incremental_benchmark.ipynb,17,156,rain_,train_metrics = calculate_metrics(
+09_temporal_incremental_benchmark.ipynb,17,158,rain_,"train_prob,"
+09_temporal_incremental_benchmark.ipynb,17,188,rain_,"f""train_{metric}"""
+09_temporal_incremental_benchmark.ipynb,17,189,rain_,] = train_metrics[
+09_temporal_incremental_benchmark.ipynb,17,202,rain_,train_metrics[
+09_temporal_incremental_benchmark.ipynb,19,15,notna,and data[c].notna().any()
+09_temporal_incremental_benchmark.ipynb,19,45,valid,"""validation_group"""

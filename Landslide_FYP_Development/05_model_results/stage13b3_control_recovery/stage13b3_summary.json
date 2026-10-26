@@ -1,0 +1,10 @@
+{
+  "original_full_temporal_cases": 121,
+  "control_only_groups_targeted": 33,
+  "replacement_slots_required": 34,
+  "available_unused_background_candidates": 2552,
+  "candidate_shortlist_rows": 170,
+  "groups_with_provisional_candidates": 33,
+  "verified_recovered_groups": 0,
+  "dataset_retraining_authorized": false
+}

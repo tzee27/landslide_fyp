@@ -1,0 +1,7 @@
+dataset,cases,total_rows
+static,194,582
+annotated,189,567
+rainfall,189,567
+rainfall_soilmoisture,158,474
+landcover,148,444
+full_enhanced,121,363

@@ -1,0 +1,13 @@
+{
+  "input_manifest_rows": 170,
+  "unique_candidate_date_pairs": 154,
+  "unique_candidate_locations": 72,
+  "candidate_date_rows_passing_original_feature_qc": 43,
+  "missing_control_slots": 34,
+  "slots_with_at_least_one_feature_pass": 9,
+  "groups_with_all_slots_having_feature_pass_options": 9,
+  "earth_engine_extraction_errors": 0,
+  "verified_recovered_groups": 0,
+  "retraining_authorized": false,
+  "leakage_caution": "Annual land-cover composites may include imagery from later in the event year"
+}

@@ -1,0 +1,9 @@
+flag,rows_compared,mismatch_count
+rainfall_complete,567,0
+rainfall_logical,567,0
+rainfall_valid,567,0
+soil_moisture_complete,567,0
+water_background_invalid,567,0
+landcover_valid_strict,567,0
+waterway_available,567,0
+full_temporal_row_valid,567,0

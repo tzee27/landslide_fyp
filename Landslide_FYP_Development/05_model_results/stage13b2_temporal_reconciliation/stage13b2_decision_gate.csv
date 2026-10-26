@@ -1,0 +1,8 @@
+check,status,finding
+Recomputed QC flags equal saved flags,PASS,0
+Original subset equals reproduced eligible groups,PASS,0
+Original full spatial benchmark file exists,PASS,True
+All group reference dates consistent,PASS,0
+Weather/raster source observation timestamps externally verified,PENDING_MANUAL_SOURCE_AUDIT,No raw acquisition-timestamp proof in these flags
+Revised matched controls individually verified,PENDING_IF_RECOVERY_PROPOSED,No control replacements performed
+Prior model results preserved,PASS,This notebook only writes to its own audit folder

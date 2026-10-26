@@ -1,0 +1,15 @@
+{
+  "input_shortlist_rows": 170,
+  "unique_candidate_date_pairs": 154,
+  "original_missing_landcover_unique_pairs": 109,
+  "new_pre_event_dw_adequate_nonwater_pairs": 74,
+  "new_feature_valid_rows_after_recovery": 132,
+  "slots_with_provisional_options": 33,
+  "groups_with_provisional_options_for_all_slots": 32,
+  "total_target_groups": 33,
+  "earth_engine_failed_rows": 0,
+  "verified_recovered_groups": 0,
+  "retraining_authorized": false,
+  "temporal_policy": "pre_event_365d_strictly_before_event_date; >=3 valid observations; water controls excluded",
+  "caveat": "Annual historical land cover retained for preexisting valid rows may include post-event observations; assess before final scientific claims"
+}

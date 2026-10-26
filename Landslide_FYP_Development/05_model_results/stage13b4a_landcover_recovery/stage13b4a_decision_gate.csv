@@ -1,0 +1,8 @@
+check,status,details
+Local TIFF / multiband structure audited,DONE,16
+Pre-event Dynamic World point-level check,DONE,109
+Recovered controls meet date / feature QC,PROVISIONAL_ONLY,74
+Original pseudoabsence spatial exclusion,PENDING,Not tested in this stage
+Nonreuse & 1:2 group assignment,PENDING,Not tested in this stage
+Temporal leakage / reference year policy,REVIEW_REQUIRED,Existing annual layers may include post-event observations
+Dataset rebuild / three-model retraining,NOT_AUTHORIZED,Run Stage 13B.5 first

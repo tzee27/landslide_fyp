@@ -1,0 +1,8 @@
+gate,status,notes
+Inventory lineage and matching,PASS,key=positive_id; excluded=87
+Original source evidence queue,PREPARED,87 records for human review
+Proposed coordinate values,REVIEW_REQUIRED,"0 pass preliminary evidence fields, not independently verified"
+True Malaysia boundary,PENDING,Polygon check required for each proposed coordinate
+Independent evidence validation,PENDING,"Manually open sources, verify event identity and coordinate precision"
+Stage04 eligibility / feature QC rerun,PENDING,Rerun only for approved verified corrections
+LR / RF / XGBoost rebenchmark,NOT_AUTHORIZED,Keep originals until proven new model-eligible records exist

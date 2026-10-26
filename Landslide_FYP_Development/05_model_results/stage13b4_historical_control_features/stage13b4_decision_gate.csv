@@ -1,0 +1,13 @@
+check,status,value
+Manifest has 33 recovery groups,PASS,33
+Manifest has 34 replacement slots,PASS,34
+Extracted candidate/date observations,COMPLETED,154
+Unique candidates passing temporal row QC,DIAGNOSTIC,43
+Replacement slots with >=1 feature-complete option,DIAGNOSTIC,9
+Groups with >=1 feature-complete option in every missing slot,DIAGNOSTIC,9
+Collection extraction errors,PASS,0
+Original pseudo-absence spatial exclusion validated,PENDING,0
+Candidate uniqueness and 1:2 matching validated,PENDING,0
+Independent pre-event annual landcover validated,LIMITATION,0
+Verified replacements approved,NOT_APPROVED,0
+Dataset rebuilding or retraining authorized,NO,0
