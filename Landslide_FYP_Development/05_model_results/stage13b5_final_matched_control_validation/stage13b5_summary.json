@@ -1,0 +1,22 @@
+{
+  "original_valid_positive_cases": 121,
+  "target_additional_control_only_groups": 33,
+  "control_slots": 34,
+  "provisional_complete_unique_groups": 30,
+  "provisional_replaced_controls": 31,
+  "unresolved_target_groups": 3,
+  "provisional_total_cases": 151,
+  "provisional_total_controls": 302,
+  "original_case_ids_retained": true,
+  "replacement_landcover_sources": {
+    "Dynamic_World_PRE_EVENT_365D": 24,
+    "GLC_FCS30D": 7
+  },
+  "original_buffer_rule_verified": false,
+  "original_spatial_rule_independently_approved": false,
+  "pre_event_annual_landcover_leakage_cleared": false,
+  "globally_unique_candidate_assignments": true,
+  "verified_recovered_groups": 0,
+  "retraining_authorized": false,
+  "note": "Provisional dataset is strictly not for model training until the original spatial exclusion policy and historical land-cover timing are cleared, then full nested spatial benchmarking is rerun."
+}

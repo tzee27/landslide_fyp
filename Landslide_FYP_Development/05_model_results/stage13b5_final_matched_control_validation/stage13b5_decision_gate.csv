@@ -1,0 +1,8 @@
+check,status,details
+Original full subset preserved,PASS,121 original cases plus matched controls
+Global replacement uniqueness,PASS,31
+Feature/date/matched-group provisional validation,PROVISIONAL_PASS,30
+Original pseudo-absence spatial rule,PENDING,NOT VERIFIED: inspect Stage 04/05A pseudo-absence generation code
+Annual historical land-cover temporal leakage,REVIEW_REQUIRED,Original annual composites may include post-event imagery
+Final recovered groups,NOT_AUTHORIZED,0
+Model retraining,NOT_AUTHORIZED,Rerun full LR/RF/XGBoost benchmarking after all data gates
