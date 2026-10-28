@@ -1,0 +1,7 @@
+check,status,detail
+Stage04 original pool membership + point buffers,PASS,"Original EPSG:6933; max(2km, COOLR uncertainty); 1km pool separation"
+Unique control IDs and full 1:2 groups,PASS,All original sample IDs should be unique
+Correction of background target labels,PASS,Audit-only copy; background target=0
+All selected replacements strictly pre-event landcover,REVIEW_REQUIRED,Annual GLC map may be post-event
+Original 121 group temporal policy cleared,PENDING,Audit prior annual composites and their temporal representation
+Approved recovered dataset for retraining,NOT_AUTHORIZED,Rerun three-algorithm nested spatial comparison after data approval

@@ -1,0 +1,12 @@
+{
+  "replacement_slots": 31,
+  "provisional_recovered_groups": 30,
+  "stage04_spatial_pass_slots": 31,
+  "strict_pre_event_dw_replacement_slots": 24,
+  "groups_passing_replacement_spatial_and_temporal": 23,
+  "provisional_total_cases": 151,
+  "provisional_total_controls": 302,
+  "annual_composite_global_policy_cleared": false,
+  "retraining_authorized": false,
+  "note": "Original complete temporal dataset and prior models remain unchanged; no retraining without full temporal policy and spatial dataset validation."
+}
